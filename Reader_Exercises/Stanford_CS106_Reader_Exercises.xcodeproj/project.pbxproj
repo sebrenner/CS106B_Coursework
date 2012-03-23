@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DDEDEE14F988B200431F50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEDED14F988B200431F50 /* main.cpp */; };
+		36DDEDF014F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36DDEDEF14F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 */; };
+		36DDEDF814F9893600431F50 /* exercisesCh01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEDF614F9893600431F50 /* exercisesCh01.cpp */; };
+		36DDEDFB14F9896F00431F50 /* exercisesCh02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEDF914F9896F00431F50 /* exercisesCh02.cpp */; };
+		36DDEE4114F989B100431F50 /* libStanfordCPPLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DDEE0C14F989B000431F50 /* libStanfordCPPLib.a */; };
+		36DDEE4214F989B100431F50 /* cmpfnimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE1114F989B000431F50 /* cmpfnimpl.cpp */; };
+		36DDEE4314F989B100431F50 /* graphimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE1614F989B000431F50 /* graphimpl.cpp */; };
+		36DDEE4414F989B100431F50 /* gridimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE1914F989B000431F50 /* gridimpl.cpp */; };
+		36DDEE4514F989B100431F50 /* hashmapimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE1D14F989B000431F50 /* hashmapimpl.cpp */; };
+		36DDEE4614F989B100431F50 /* lexiconimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE1F14F989B000431F50 /* lexiconimpl.cpp */; };
+		36DDEE4714F989B100431F50 /* mapimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE2314F989B000431F50 /* mapimpl.cpp */; };
+		36DDEE4814F989B100431F50 /* pqueueimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE2614F989B000431F50 /* pqueueimpl.cpp */; };
+		36DDEE4914F989B100431F50 /* queueimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE2814F989B000431F50 /* queueimpl.cpp */; };
+		36DDEE4A14F989B100431F50 /* setimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE2B14F989B000431F50 /* setimpl.cpp */; };
+		36DDEE4B14F989B100431F50 /* stackimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE2E14F989B100431F50 /* stackimpl.cpp */; };
+		36DDEE4C14F989B100431F50 /* threadimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE3114F989B100431F50 /* threadimpl.cpp */; };
+		36DDEE4D14F989B100431F50 /* vectorimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DDEE3514F989B100431F50 /* vectorimpl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36DDEDE714F988B200431F50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				36DDEDF014F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36DDEDE914F988B200431F50 /* Stanford_CS106_Reader_Exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stanford_CS106_Reader_Exercises; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DDEDED14F988B200431F50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36DDEDEF14F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stanford_CS106_Reader_Exercises.1; sourceTree = "<group>"; };
+		36DDEDF614F9893600431F50 /* exercisesCh01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercisesCh01.cpp; sourceTree = "<group>"; };
+		36DDEDF714F9893600431F50 /* exercisesCh01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exercisesCh01.h; sourceTree = "<group>"; };
+		36DDEDF914F9896F00431F50 /* exercisesCh02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercisesCh02.cpp; sourceTree = "<group>"; };
+		36DDEDFA14F9896F00431F50 /* exercisesCh02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exercisesCh02.h; sourceTree = "<group>"; };
+		36DDEDFD14F989B000431F50 /* cmpfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmpfn.h; sourceTree = "<group>"; };
+		36DDEDFE14F989B000431F50 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		36DDEDFF14F989B000431F50 /* direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
+		36DDEE0014F989B000431F50 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		36DDEE0114F989B000431F50 /* filelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filelib.h; sourceTree = "<group>"; };
+		36DDEE0214F989B000431F50 /* foreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foreach.h; sourceTree = "<group>"; };
+		36DDEE0314F989B000431F50 /* gevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gevents.h; sourceTree = "<group>"; };
+		36DDEE0414F989B000431F50 /* gmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmath.h; sourceTree = "<group>"; };
+		36DDEE0514F989B000431F50 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		36DDEE0614F989B000431F50 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		36DDEE0714F989B000431F50 /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		36DDEE0814F989B000431F50 /* gtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
+		36DDEE0914F989B000431F50 /* gwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gwindow.h; sourceTree = "<group>"; };
+		36DDEE0A14F989B000431F50 /* hashmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		36DDEE0B14F989B000431F50 /* lexicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lexicon.h; sourceTree = "<group>"; };
+		36DDEE0C14F989B000431F50 /* libStanfordCPPLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStanfordCPPLib.a; sourceTree = "<group>"; };
+		36DDEE0D14F989B000431F50 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		36DDEE0E14F989B000431F50 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		36DDEE0F14F989B000431F50 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		36DDEE1114F989B000431F50 /* cmpfnimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmpfnimpl.cpp; sourceTree = "<group>"; };
+		36DDEE1214F989B000431F50 /* foreachpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foreachpriv.h; sourceTree = "<group>"; };
+		36DDEE1314F989B000431F50 /* geventpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geventpriv.h; sourceTree = "<group>"; };
+		36DDEE1414F989B000431F50 /* gplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gplatform.h; sourceTree = "<group>"; };
+		36DDEE1514F989B000431F50 /* gpointpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpointpriv.h; sourceTree = "<group>"; };
+		36DDEE1614F989B000431F50 /* graphimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphimpl.cpp; sourceTree = "<group>"; };
+		36DDEE1714F989B000431F50 /* graphpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphpriv.h; sourceTree = "<group>"; };
+		36DDEE1814F989B000431F50 /* grectanglepriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grectanglepriv.h; sourceTree = "<group>"; };
+		36DDEE1914F989B000431F50 /* gridimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gridimpl.cpp; sourceTree = "<group>"; };
+		36DDEE1A14F989B000431F50 /* gridpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridpriv.h; sourceTree = "<group>"; };
+		36DDEE1B14F989B000431F50 /* gtypescompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtypescompare.h; sourceTree = "<group>"; };
+		36DDEE1C14F989B000431F50 /* gwindowpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gwindowpriv.h; sourceTree = "<group>"; };
+		36DDEE1D14F989B000431F50 /* hashmapimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashmapimpl.cpp; sourceTree = "<group>"; };
+		36DDEE1E14F989B000431F50 /* hashmappriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmappriv.h; sourceTree = "<group>"; };
+		36DDEE1F14F989B000431F50 /* lexiconimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexiconimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2014F989B000431F50 /* lexiconpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lexiconpriv.h; sourceTree = "<group>"; };
+		36DDEE2114F989B000431F50 /* lockpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockpriv.h; sourceTree = "<group>"; };
+		36DDEE2214F989B000431F50 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		36DDEE2314F989B000431F50 /* mapimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2414F989B000431F50 /* mappriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mappriv.h; sourceTree = "<group>"; };
+		36DDEE2514F989B000431F50 /* pointpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointpriv.h; sourceTree = "<group>"; };
+		36DDEE2614F989B000431F50 /* pqueueimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pqueueimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2714F989B000431F50 /* pqueuepriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueuepriv.h; sourceTree = "<group>"; };
+		36DDEE2814F989B000431F50 /* queueimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queueimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2914F989B000431F50 /* queuepriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queuepriv.h; sourceTree = "<group>"; };
+		36DDEE2A14F989B000431F50 /* randompatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randompatch.h; sourceTree = "<group>"; };
+		36DDEE2B14F989B000431F50 /* setimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = setimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2C14F989B000431F50 /* setpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setpriv.h; sourceTree = "<group>"; };
+		36DDEE2D14F989B100431F50 /* soundpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundpriv.h; sourceTree = "<group>"; };
+		36DDEE2E14F989B100431F50 /* stackimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stackimpl.cpp; sourceTree = "<group>"; };
+		36DDEE2F14F989B100431F50 /* stackpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stackpriv.h; sourceTree = "<group>"; };
+		36DDEE3014F989B100431F50 /* synchronized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = synchronized.h; sourceTree = "<group>"; };
+		36DDEE3114F989B100431F50 /* threadimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threadimpl.cpp; sourceTree = "<group>"; };
+		36DDEE3214F989B100431F50 /* threadplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadplatform.h; sourceTree = "<group>"; };
+		36DDEE3314F989B100431F50 /* threadpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadpriv.h; sourceTree = "<group>"; };
+		36DDEE3414F989B100431F50 /* tokenscannerpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenscannerpriv.h; sourceTree = "<group>"; };
+		36DDEE3514F989B100431F50 /* vectorimpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vectorimpl.cpp; sourceTree = "<group>"; };
+		36DDEE3614F989B100431F50 /* vectorpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vectorpriv.h; sourceTree = "<group>"; };
+		36DDEE3714F989B100431F50 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		36DDEE3814F989B100431F50 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		36DDEE3914F989B100431F50 /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		36DDEE3A14F989B100431F50 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		36DDEE3B14F989B100431F50 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		36DDEE3C14F989B100431F50 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		36DDEE3D14F989B100431F50 /* strlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
+		36DDEE3E14F989B100431F50 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		36DDEE3F14F989B100431F50 /* tokenscanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenscanner.h; sourceTree = "<group>"; };
+		36DDEE4014F989B100431F50 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DDEDE614F988B200431F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDEE4114F989B100431F50 /* libStanfordCPPLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DDEDDE14F988B200431F50 = {
+			isa = PBXGroup;
+			children = (
+				36DDEDEC14F988B200431F50 /* Stanford_CS106_Reader_Exercises */,
+				36DDEDEA14F988B200431F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DDEDEA14F988B200431F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DDEDE914F988B200431F50 /* Stanford_CS106_Reader_Exercises */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DDEDEC14F988B200431F50 /* Stanford_CS106_Reader_Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				36DDEDED14F988B200431F50 /* main.cpp */,
+				36DDEDFC14F989B000431F50 /* StanfordCPPLib */,
+				36DDEDF614F9893600431F50 /* exercisesCh01.cpp */,
+				36DDEDF714F9893600431F50 /* exercisesCh01.h */,
+				36DDEDF914F9896F00431F50 /* exercisesCh02.cpp */,
+				36DDEDFA14F9896F00431F50 /* exercisesCh02.h */,
+				36DDEDEF14F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 */,
+			);
+			path = Stanford_CS106_Reader_Exercises;
+			sourceTree = "<group>";
+		};
+		36DDEDFC14F989B000431F50 /* StanfordCPPLib */ = {
+			isa = PBXGroup;
+			children = (
+				36DDEDFD14F989B000431F50 /* cmpfn.h */,
+				36DDEDFE14F989B000431F50 /* console.h */,
+				36DDEDFF14F989B000431F50 /* direction.h */,
+				36DDEE0014F989B000431F50 /* error.h */,
+				36DDEE0114F989B000431F50 /* filelib.h */,
+				36DDEE0214F989B000431F50 /* foreach.h */,
+				36DDEE0314F989B000431F50 /* gevents.h */,
+				36DDEE0414F989B000431F50 /* gmath.h */,
+				36DDEE0514F989B000431F50 /* graph.h */,
+				36DDEE0614F989B000431F50 /* graphics.h */,
+				36DDEE0714F989B000431F50 /* grid.h */,
+				36DDEE0814F989B000431F50 /* gtypes.h */,
+				36DDEE0914F989B000431F50 /* gwindow.h */,
+				36DDEE0A14F989B000431F50 /* hashmap.h */,
+				36DDEE0B14F989B000431F50 /* lexicon.h */,
+				36DDEE0C14F989B000431F50 /* libStanfordCPPLib.a */,
+				36DDEE0D14F989B000431F50 /* map.h */,
+				36DDEE0E14F989B000431F50 /* point.h */,
+				36DDEE0F14F989B000431F50 /* pqueue.h */,
+				36DDEE1014F989B000431F50 /* private */,
+				36DDEE3714F989B100431F50 /* queue.h */,
+				36DDEE3814F989B100431F50 /* random.h */,
+				36DDEE3914F989B100431F50 /* set.h */,
+				36DDEE3A14F989B100431F50 /* simpio.h */,
+				36DDEE3B14F989B100431F50 /* sound.h */,
+				36DDEE3C14F989B100431F50 /* stack.h */,
+				36DDEE3D14F989B100431F50 /* strlib.h */,
+				36DDEE3E14F989B100431F50 /* thread.h */,
+				36DDEE3F14F989B100431F50 /* tokenscanner.h */,
+				36DDEE4014F989B100431F50 /* vector.h */,
+			);
+			path = StanfordCPPLib;
+			sourceTree = "<group>";
+		};
+		36DDEE1014F989B000431F50 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				36DDEE1114F989B000431F50 /* cmpfnimpl.cpp */,
+				36DDEE1214F989B000431F50 /* foreachpriv.h */,
+				36DDEE1314F989B000431F50 /* geventpriv.h */,
+				36DDEE1414F989B000431F50 /* gplatform.h */,
+				36DDEE1514F989B000431F50 /* gpointpriv.h */,
+				36DDEE1614F989B000431F50 /* graphimpl.cpp */,
+				36DDEE1714F989B000431F50 /* graphpriv.h */,
+				36DDEE1814F989B000431F50 /* grectanglepriv.h */,
+				36DDEE1914F989B000431F50 /* gridimpl.cpp */,
+				36DDEE1A14F989B000431F50 /* gridpriv.h */,
+				36DDEE1B14F989B000431F50 /* gtypescompare.h */,
+				36DDEE1C14F989B000431F50 /* gwindowpriv.h */,
+				36DDEE1D14F989B000431F50 /* hashmapimpl.cpp */,
+				36DDEE1E14F989B000431F50 /* hashmappriv.h */,
+				36DDEE1F14F989B000431F50 /* lexiconimpl.cpp */,
+				36DDEE2014F989B000431F50 /* lexiconpriv.h */,
+				36DDEE2114F989B000431F50 /* lockpriv.h */,
+				36DDEE2214F989B000431F50 /* main.h */,
+				36DDEE2314F989B000431F50 /* mapimpl.cpp */,
+				36DDEE2414F989B000431F50 /* mappriv.h */,
+				36DDEE2514F989B000431F50 /* pointpriv.h */,
+				36DDEE2614F989B000431F50 /* pqueueimpl.cpp */,
+				36DDEE2714F989B000431F50 /* pqueuepriv.h */,
+				36DDEE2814F989B000431F50 /* queueimpl.cpp */,
+				36DDEE2914F989B000431F50 /* queuepriv.h */,
+				36DDEE2A14F989B000431F50 /* randompatch.h */,
+				36DDEE2B14F989B000431F50 /* setimpl.cpp */,
+				36DDEE2C14F989B000431F50 /* setpriv.h */,
+				36DDEE2D14F989B100431F50 /* soundpriv.h */,
+				36DDEE2E14F989B100431F50 /* stackimpl.cpp */,
+				36DDEE2F14F989B100431F50 /* stackpriv.h */,
+				36DDEE3014F989B100431F50 /* synchronized.h */,
+				36DDEE3114F989B100431F50 /* threadimpl.cpp */,
+				36DDEE3214F989B100431F50 /* threadplatform.h */,
+				36DDEE3314F989B100431F50 /* threadpriv.h */,
+				36DDEE3414F989B100431F50 /* tokenscannerpriv.h */,
+				36DDEE3514F989B100431F50 /* vectorimpl.cpp */,
+				36DDEE3614F989B100431F50 /* vectorpriv.h */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36DDEDE814F988B200431F50 /* Stanford_CS106_Reader_Exercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DDEDF314F988B200431F50 /* Build configuration list for PBXNativeTarget "Stanford_CS106_Reader_Exercises" */;
+			buildPhases = (
+				36DDEDE514F988B200431F50 /* Sources */,
+				36DDEDE614F988B200431F50 /* Frameworks */,
+				36DDEDE714F988B200431F50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stanford_CS106_Reader_Exercises;
+			productName = Stanford_CS106_Reader_Exercises;
+			productReference = 36DDEDE914F988B200431F50 /* Stanford_CS106_Reader_Exercises */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DDEDE014F988B200431F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 36DDEDE314F988B200431F50 /* Build configuration list for PBXProject "Stanford_CS106_Reader_Exercises" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36DDEDDE14F988B200431F50;
+			productRefGroup = 36DDEDEA14F988B200431F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DDEDE814F988B200431F50 /* Stanford_CS106_Reader_Exercises */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DDEDE514F988B200431F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDEDEE14F988B200431F50 /* main.cpp in Sources */,
+				36DDEDF814F9893600431F50 /* exercisesCh01.cpp in Sources */,
+				36DDEDFB14F9896F00431F50 /* exercisesCh02.cpp in Sources */,
+				36DDEE4214F989B100431F50 /* cmpfnimpl.cpp in Sources */,
+				36DDEE4314F989B100431F50 /* graphimpl.cpp in Sources */,
+				36DDEE4414F989B100431F50 /* gridimpl.cpp in Sources */,
+				36DDEE4514F989B100431F50 /* hashmapimpl.cpp in Sources */,
+				36DDEE4614F989B100431F50 /* lexiconimpl.cpp in Sources */,
+				36DDEE4714F989B100431F50 /* mapimpl.cpp in Sources */,
+				36DDEE4814F989B100431F50 /* pqueueimpl.cpp in Sources */,
+				36DDEE4914F989B100431F50 /* queueimpl.cpp in Sources */,
+				36DDEE4A14F989B100431F50 /* setimpl.cpp in Sources */,
+				36DDEE4B14F989B100431F50 /* stackimpl.cpp in Sources */,
+				36DDEE4C14F989B100431F50 /* threadimpl.cpp in Sources */,
+				36DDEE4D14F989B100431F50 /* vectorimpl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36DDEDF114F988B200431F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36DDEDF214F988B200431F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36DDEDF414F988B200431F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Stanford_CS106_Reader_Exercises/StanfordCPPLib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36DDEDF514F988B200431F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Stanford_CS106_Reader_Exercises/StanfordCPPLib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DDEDE314F988B200431F50 /* Build configuration list for PBXProject "Stanford_CS106_Reader_Exercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDEDF114F988B200431F50 /* Debug */,
+				36DDEDF214F988B200431F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DDEDF314F988B200431F50 /* Build configuration list for PBXNativeTarget "Stanford_CS106_Reader_Exercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDEDF414F988B200431F50 /* Debug */,
+				36DDEDF514F988B200431F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36DDEDE014F988B200431F50 /* Project object */;
+}
