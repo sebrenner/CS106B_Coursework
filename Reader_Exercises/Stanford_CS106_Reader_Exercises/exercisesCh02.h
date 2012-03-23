@@ -14,14 +14,21 @@
 // Exercise selector
 void chapter02();
 
-// Exercsie 1
+// Exercise 1
 double celciusToFarenheit( double celcius );
-// Exercsie 2
+// Exercise 2
 void metersToFeet(double meters, int &feet, double &inches);
-// Exercsie 3
+// Exercise 3
 int roundToNearestInt(double x);
-// Exercsie 4
+// Exercise 4
 double windChill(double t, double v );
 void createWindChillTable();
+// Exercise 5
+int problem5();
+bool IsPerfect( int n );
+// Exercise 6
+int problem6();
+//bool isPrime( int n );	// This is weird: this function is declared here, but it is defined in exercisesCh01.cpp.  But I can call it in exercisesCh02.cpp
+bool isPrime2( int n );
 
 #endif

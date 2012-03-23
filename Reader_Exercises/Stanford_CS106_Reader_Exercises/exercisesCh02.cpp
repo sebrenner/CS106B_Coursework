@@ -22,8 +22,7 @@ void chapter02(){
             cin >> celcius;
             cout << celcius << " Celcius is " << celciusToFarenheit( celcius ) << " Farenheit." << endl;
         }
-        break;
-
+			break;
         case 2:{
             double meters;
             int feet;
@@ -33,7 +32,7 @@ void chapter02(){
             metersToFeet( meters, feet, inches );
             cout << meters << " meters is " << feet << " feet and " << inches << " inches." << endl;
         }
-        break;
+			break;
         case 3:{
             cout << "This exercise will repeat four times." << endl;
             for (int i=0; i < 4 ; i++) {
@@ -43,7 +42,7 @@ void chapter02(){
                 cout << realNum << " rounded to the neares integer is " << roundToNearestInt(realNum) << "." << endl;
             }
         }
-        break;
+			break;
         case 4:{
             double temperatureF;
             double windSpeed;
@@ -55,11 +54,14 @@ void chapter02(){
 			cout << endl;
 			createWindChillTable();
         }
-        break;            
-//        case 5:
-//            break;
-//        case 6:
-//            break;
+			break;            
+        case 5:{
+			problem5();
+			break;
+		}
+        case 6:
+			problem6();
+            break;
 //        case 7:
 //            break;
 //        case 8:
@@ -182,7 +184,64 @@ void createWindChillTable(){
 		}
 		std::cout << std::endl;
 	}
+}
+
+/* Problem 5
+
+ Greek mathematicians took a special interest in numbers that are equal to the sum of their proper divisors (a proper divisor of n is any divisor less than n itself). 
+ They called such numbers perfect numbers. For example, 6 is a perfect number because it is the sum of 1, 2, and 3, which are the integers less than 6 that divide evenly into 6. Similarly, 28 is a perfect number because it is the sum of 1, 2, 4, 7, and 14.
+ 
+ Write a predicate function isPerfect that takes an integer n and returns true if n is perfect, and false otherwise. Test your implementation by writing a main program that uses the isPerfect function to check for perfect numbers in the range 1 to 9999 by testing each number in turn. When a perfect number is found, your program should display it on the screen. The first two lines of output should be 6 and 28. Your program should find two other perfect numbers in the range as well.
+
+ Note this problem is also in Programming Assignment 01.
+ 
+*/
+
+int problem5(){
+    std::cout<< endl << "Problem 5:" << std::endl;
+    for ( int i = 1; i <= 10000; i++){
+        if ( IsPerfect(i) ) std::cout << i << " is perfect." << std::endl;
+    }
+    return 0;
+}
+
+bool IsPerfect( int n ){
+    int sum = 0;
+    //  Starting at 1 check each integer up to half the value of n to see if the integer is a divisor
+    for ( int i = 1; i <= n / 2; i++){
+        // If the integer is a divisor add it to the sum.
+        if ( n % i == 0 ) sum += i;
+    }
+    //    cout << "n is " << n << ". The sum is " << sum << endl;
+    if (sum == n) return true;
+    return false;
+}
 
 
+/* Problem 6
 
+An integer greater than 1 is said to be prime if it has no divisors other than itself and one. The number 17, for example, is prime, because there are no numbers other than 1 and 17 that divide evenly into it. The number 91, however, is not prime because it is divisible by 7 and 13. Write a predicate method isPrime(n) that returns true if the integer n is prime, and false otherwise. To test your algorithm, write a main program that lists the prime numbers between 1 and 100.
+ 
+	An isPrime predicate function was created in the chaper 1 exercises. I created a second one. I think my second one is less efficient.
+*/
+
+int problem6(){
+    cout<< endl << "Problem 6:" << endl;
+    for ( int i = 1; i <= 100; i++){
+		if ( isPrime2(i) ){
+			cout << i << " is prime." << endl;
+		}
+    }
+    return 0;
+}
+
+bool isPrime2( int n ){
+	// Loop through each in between 2 and 1/2 n.
+	// If n is not evenly divisible by any of the ints then n is prime.
+	if ( n%2 == 0) return false;
+	
+	for (int i = 3; i <= n/2; i += 2) {
+		if ( n % i == 0 ) return false;
+	}
+	return true;
 }
