@@ -22,5 +22,6 @@ void metersToFeet(double meters, int &feet, double &inches);
 int roundToNearestInt(double x);
 // Exercsie 4
 double windChill(double t, double v );
+void createWindChillTable();
 
 #endif

@@ -45,7 +45,7 @@
 		36DDEDEF14F988B200431F50 /* Stanford_CS106_Reader_Exercises.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stanford_CS106_Reader_Exercises.1; sourceTree = "<group>"; };
 		36DDEDF614F9893600431F50 /* exercisesCh01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercisesCh01.cpp; sourceTree = "<group>"; };
 		36DDEDF714F9893600431F50 /* exercisesCh01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exercisesCh01.h; sourceTree = "<group>"; };
-		36DDEDF914F9896F00431F50 /* exercisesCh02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercisesCh02.cpp; sourceTree = "<group>"; };
+		36DDEDF914F9896F00431F50 /* exercisesCh02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercisesCh02.cpp; sourceTree = "<group>"; wrapsLines = 1; };
 		36DDEDFA14F9896F00431F50 /* exercisesCh02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exercisesCh02.h; sourceTree = "<group>"; };
 		36DDEDFD14F989B000431F50 /* cmpfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmpfn.h; sourceTree = "<group>"; };
 		36DDEDFE14F989B000431F50 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };

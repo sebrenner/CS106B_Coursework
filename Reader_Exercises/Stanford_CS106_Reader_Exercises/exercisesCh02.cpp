@@ -52,6 +52,8 @@ void chapter02(){
             cout << "Enter the windspeed in mph: ";
             cin >> windSpeed;
             cout << "The wind chill is " << windChill( temperatureF, windSpeed ) << "." << endl;
+			cout << endl;
+			createWindChillTable();
         }
         break;            
 //        case 5:
@@ -134,7 +136,9 @@ int roundToNearestInt(double x){
 /* Exercise 4
 
  If you are unfortunate enough to be outside in winter weather, you know that your perception of the cold is dependent on the wind speed as well as the temperature. The faster the wind blows, the colder you feel. To quantify the how wind affects temperature perception, the National Weather Service reports the wind chill, which is illustrated on their website as shown in Figure 2-15. At the bottom of the figure, you can see that the formula for wind chill is
+
  35.74 + 0.6215 t – 35.75 v 0.16 + 0.4275 t v 0.16
+ 
  where t is the Fahrenheit temperature and v is the wind speed in miles per hour.
  ￼￼￼
  118 Functions and Libraries
@@ -144,7 +148,7 @@ int roundToNearestInt(double x){
  your function should call error with an appropriate message.
  Although it will be easier to do so once you learn how to format numeric data in Chapter 4, you already know enough to generate a table that presents the wind-chill data in columns as shown in Figure 2-15. If you’re up for more of a challenge, write a main program that uses windChill to produce that table.
 */
-double windChill(double t, double v ){
+double windChill( double t, double v ){
     if (v == 0) {
         return t;
     }
@@ -152,7 +156,33 @@ double windChill(double t, double v ){
         //        error("Windchill is undefined for temperature above 40.")
         return t;
     }
-    return 35.74 + .06215 * t - 35.75 * pow(v, .16) + .4275 * t * pow(v,.16);
-//    return 35.74 + 0.6215 * t - 35.75 pow(v, 0.16) + 0.4275 * t * pow(v, 0.16);
-    
+	double v16 = pow( v, .16 );
+
+	double windChillTemp = 35.74 + (.6215 * t) - (35.75 * v16) + (.4275 * t * v16);
+	
+    return windChillTemp;
+}
+
+void createWindChillTable(){
+	//	Print table title
+	std::cout <<	"\t\t\t\t\t\tWindchill Table\n\t\t\t\tTemperature in Farenheit\n\n";
+
+	//	print table header
+	std::cout << "Calm";
+	for (int t = 40; t >= -45; t -= 5) {
+		std::cout << "\t" << t;
+	}
+	std::cout << std::endl;
+	
+	//  Print each row of table starting with windspeed	
+	for ( int v = 5; v <= 60; v+=5 ) {
+		std::cout << v << "\t";
+		for (int t = 40; t >= -45; t -= 5) {
+			std::cout << "\t" << int( windChill( t, v ) );
+		}
+		std::cout << std::endl;
+	}
+
+
+
 }
