@@ -1,0 +1,134 @@
+Tadd2
+v7
+r0
+t353387582.526414
+cCheck dependencies
+cProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+cCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /Users/tv/Desktop/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./add2.app/Contents/MacOS/add2 normal i386
+cTouch ./add2.app
+
+N./add2.app
+t1331690864
+s102
+
+N./add2.app/Contents/Info.plist
+t1331690796
+s710
+
+N./add2.app/Contents/MacOS/add2
+t1331690864
+s38620
+
+N./add2.app/Contents/PkgInfo
+t1331690796
+s8
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c0000000046F6F1A000000000000000EE
+t1190588832
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004DF9CD1C000000000000A5F0
+t1308216604
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004DE5A33C0000000000785970
+t1306895164
+s7887216
+
+N/Users/tv/Desktop/add2/add2.cpp
+c0000000048AC8B1C00000000000001D0
+t1219267356
+s464
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.LinkFileList
+c000000004F5FFD2C0000000000000054
+t1331690796
+s84
+
+N/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+t1331690861
+s66836
+
+N/Users/tv/Desktop/add2/cs106/genlib.h
+c000000004F5FFCFC0000000000000455
+t1331690748
+s1109
+i<string>
+
+N/Users/tv/Desktop/add2/cs106/libcs106.a
+c000000004F5FFCFC000000000004C730
+t1331690748
+s313136
+
+N/Users/tv/Desktop/add2/cs106/simpio.h
+c000000004F5FFCFC0000000000000668
+t1331690748
+s1640
+i"genlib.h"
+
+NInfo.plist
+c000000004F5FFCFC0000000000000326
+t1331690748
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies353387582#353387582#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /Users/tv/Desktop/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353383660.819739
+e353383661.524806
+r1
+xCompileC
+xbuild/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+x/Users/tv/Desktop/add2/add2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/tv/Desktop/add2/add2.cpp353383660#353383661#0(0"0(0#0#31"/Users/tv/Desktop/add2/add2.cpp4300882208#677"    cd /Users/tv/Desktop/add2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/add2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/DerivedSources/i386 -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/DerivedSources -fstack-check -c /Users/tv/Desktop/add2/add2.cpp -o /Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o0#
+
+CLd ./add2.app/Contents/MacOS/add2 normal i386
+s353383661.524992
+e353383664.719058
+r1
+xLd
+x./add2.app/Contents/MacOS/add2
+xnormal
+xi386
+lSLF07#2@35"Link ./add2.app/Contents/MacOS/add2353383661#353383664#0(0"0(0#0#0"4300882208#322"    cd /Users/tv/Desktop/add2    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/Users/tv/Desktop/add2/cs106 -F. -filelist /Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./add2.app/Contents/MacOS/add20#
+
+CProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+s353383596.388479
+e353383596.392788
+r1
+xProcessInfoPlistFile
+x./add2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist353383596#353383596#0(0"0(0#0#33"/Users/tv/Desktop/add2/Info.plist27303274607411248#182"    cd /Users/tv/Desktop/add2    builtin-infoPlistUtility Info.plist -genpkginfo ./add2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./add2.app/Contents/Info.plist0#
+
+CTouch ./add2.app
+s353383664.719255
+e353383664.749620
+r1
+xTouch
+x./add2.app
+lSLF07#2@16"Touch ./add2.app353383664#353383664#0(0"0(0#0#0"4300882208#63"    cd /Users/tv/Desktop/add2    /usr/bin/touch -c ./add2.app0#
+

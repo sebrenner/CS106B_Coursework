@@ -1,0 +1,835 @@
+TProgAssign01
+v7
+r0
+t354144195.141367
+cCheck dependencies
+cProcessInfoPlistFile ./ProgAssign01.app/Contents/Info.plist Info.plist
+cCpResource ./ProgAssign01.app/Contents/Resources/scores.txt scores.txt
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cLd ./ProgAssign01.app/Contents/MacOS/ProgAssign01 normal i386
+cTouch ./ProgAssign01.app
+
+N./ProgAssign01.app
+t1332451395
+s102
+
+N./ProgAssign01.app/Contents/Info.plist
+t1331587348
+s734
+
+N./ProgAssign01.app/Contents/MacOS/ProgAssign01
+t1332451395
+s133260
+
+N./ProgAssign01.app/Contents/PkgInfo
+t1331587348
+s8
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c0000000046F6F1A000000000000000EE
+t1190588832
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004F4D7F6E0000000000006530
+t1330478958
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F4D7F6F0000000000006560
+t1330478959
+s25952
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F4D801B000000000032B6C0
+t1330479131
+s3323584
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/./ProgAssign01.app/Contents/Resources/scores.txt
+t1331587563
+s35
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/ProgAssign01.LinkFileList
+c000000004F6B984000000000000004E3
+t1332451392
+s1251
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+t1331587400
+s68020
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+t1331590368
+s46384
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o
+t1331587564
+s67128
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o
+t1331587564
+s69368
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o
+t1331587764
+s89220
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o
+t1331587565
+s72668
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o
+t1331590368
+s102540
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/extgraph.h
+c000000004F5E68BB0000000000003EF7
+t1331587259
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/genlib.h
+c000000004F5E68BB0000000000000455
+t1331587259
+s1109
+i<string>
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/graphics.h
+c000000004F5E68BB00000000000012F6
+t1331587259
+s4854
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/libcs106.a
+c000000004F5E68BB000000000004C730
+t1331587259
+s313136
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/random.h
+c000000004F5E68BB0000000000000684
+t1331587259
+s1668
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/simpio.h
+c000000004F5E68BB0000000000000668
+t1331587259
+s1640
+i"genlib.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/strutils.h
+c000000004F5E68BB00000000000008A6
+t1331587259
+s2214
+i"genlib.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/vector.h
+c000000004F5E68BB0000000000002977
+t1331587259
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.cpp
+c000000004F5B56A600000000000003AC
+t1331386022
+s940
+i"hash.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.h
+c000000004F57E9CC00000000000001D1
+t1331161548
+s465
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp
+c000000004F5E6D6800000000000001C6
+t1331588456
+s454
+i<iostream>
+i"hash.h"
+i"part1.h"
+i"part2.h"
+i"part3.h"
+i"part4.h"
+i"part5.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.cpp
+c000000004F5B57A000000000000003DD
+t1331386272
+s989
+i"part1.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.h
+c000000004F5B57880000000000000144
+t1331386248
+s324
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.cpp
+c000000004F5B59D10000000000000F4A
+t1331386833
+s3914
+i"part2.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.h
+c000000004F5A396000000000000001B0
+t1331312992
+s432
+i<iostream>
+i<string>
+i"random.h"
+i"simpio.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.cpp
+c000000004F5E6AB400000000000009D0
+t1331587764
+s2512
+i"part3.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.h
+c000000004F5B7989000000000000027F
+t1331394953
+s639
+i<iostream>
+i<string>
+i"simpio.h"
+i"graphics.h"
+i"extgraph.h"
+i"vector.h"
+i"random.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.cpp
+c000000004F5A3B8800000000000010DC
+t1331313544
+s4316
+i"part4.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.h
+c000000004F5A36B100000000000001B7
+t1331312305
+s439
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp
+c000000004F6B98A10000000000000832
+t1332451489
+s2098
+i"part5.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.h
+c000000004F5E6D83000000000000012C
+t1331588483
+s300
+i<iostream>
+i<fstream>
+i"vector.h"
+i"simpio.h"
+
+N/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/scores.txt
+c000000004F53A23D0000000000000023
+t1330881085
+s35
+
+N/Users/tv/Desktop/ProgAssign01/./ProgAssign01.app/Contents/Resources/scores.txt
+t1331691963
+s35
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/ProgAssign01.LinkFileList
+c000000004F6002F200000000000002F9
+t1331692274
+s761
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+t1331691800
+s68020
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+t1331692830
+s46180
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o
+t1331691964
+s67128
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o
+t1331691964
+s69368
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o
+t1331692164
+s89220
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o
+t1331691965
+s72668
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o
+t1331692830
+s102376
+
+N/Users/tv/Desktop/ProgAssign01/cs106/extgraph.h
+c000000004F60008B0000000000003EF7
+t1331691659
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/Users/tv/Desktop/ProgAssign01/cs106/genlib.h
+c000000004F60008B0000000000000455
+t1331691659
+s1109
+i<string>
+
+N/Users/tv/Desktop/ProgAssign01/cs106/graphics.h
+c000000004F60008B00000000000012F6
+t1331691659
+s4854
+
+N/Users/tv/Desktop/ProgAssign01/cs106/libcs106.a
+c000000004F60008B000000000004C730
+t1331691659
+s313136
+
+N/Users/tv/Desktop/ProgAssign01/cs106/random.h
+c000000004F60008B0000000000000684
+t1331691659
+s1668
+
+N/Users/tv/Desktop/ProgAssign01/cs106/simpio.h
+c000000004F60008B0000000000000668
+t1331691659
+s1640
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgAssign01/cs106/strutils.h
+c000000004F60008B00000000000008A6
+t1331691659
+s2214
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgAssign01/cs106/vector.h
+c000000004F60008B0000000000002977
+t1331691659
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/tv/Desktop/ProgAssign01/hash.cpp
+c000000004F5CEE7600000000000003AC
+t1331490422
+s940
+i"hash.h"
+
+N/Users/tv/Desktop/ProgAssign01/hash.h
+c000000004F59819C00000000000001D1
+t1331265948
+s465
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/main.cpp
+c000000004F60053800000000000001C6
+t1331692856
+s454
+i<iostream>
+i"hash.h"
+i"part1.h"
+i"part2.h"
+i"part3.h"
+i"part4.h"
+i"part5.h"
+
+N/Users/tv/Desktop/ProgAssign01/part1.cpp
+c000000004F5CEF7000000000000003DD
+t1331490672
+s989
+i"part1.h"
+
+N/Users/tv/Desktop/ProgAssign01/part1.h
+c000000004F5CEF580000000000000144
+t1331490648
+s324
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/part2.cpp
+c000000004F5CF1A10000000000000F4A
+t1331491233
+s3914
+i"part2.h"
+
+N/Users/tv/Desktop/ProgAssign01/part2.h
+c000000004F5BD13000000000000001B0
+t1331417392
+s432
+i<iostream>
+i<string>
+i"random.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/part3.cpp
+c000000004F60028400000000000009D0
+t1331692164
+s2512
+i"part3.h"
+
+N/Users/tv/Desktop/ProgAssign01/part3.h
+c000000004F5D1159000000000000027F
+t1331499353
+s639
+i<iostream>
+i<string>
+i"simpio.h"
+i"graphics.h"
+i"extgraph.h"
+i"vector.h"
+i"random.h"
+
+N/Users/tv/Desktop/ProgAssign01/part4.cpp
+c000000004F5BD35800000000000010DC
+t1331417944
+s4316
+i"part4.h"
+
+N/Users/tv/Desktop/ProgAssign01/part4.h
+c000000004F5BCE8100000000000001B7
+t1331416705
+s439
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/part5.cpp
+c000000004F5CF7EC0000000000000831
+t1331492844
+s2097
+i"part5.h"
+
+N/Users/tv/Desktop/ProgAssign01/part5.h
+c000000004F600553000000000000012C
+t1331692883
+s300
+i<iostream>
+i<fstream>
+i"vector.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/scores.txt
+c000000004F553A0D0000000000000023
+t1330985485
+s35
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/./ProgAssign01.app/Contents/Resources/scores.txt
+t1331691963
+s35
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/ProgAssign01.LinkFileList
+c000000004F600CB0000000000000047A
+t1331694768
+s1146
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+t1331691800
+s68020
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+t1331694768
+s46384
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o
+t1331691964
+s67128
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o
+t1331691964
+s69368
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o
+t1331692164
+s89220
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o
+t1331691965
+s72668
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o
+t1331694768
+s102540
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/extgraph.h
+c000000004F60008B0000000000003EF7
+t1331691659
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/genlib.h
+c000000004F60008B0000000000000455
+t1331691659
+s1109
+i<string>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/graphics.h
+c000000004F60008B00000000000012F6
+t1331691659
+s4854
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/libcs106.a
+c000000004F60008B000000000004C730
+t1331691659
+s313136
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/random.h
+c000000004F60008B0000000000000684
+t1331691659
+s1668
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/simpio.h
+c000000004F60008B0000000000000668
+t1331691659
+s1640
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/strutils.h
+c000000004F60008B00000000000008A6
+t1331691659
+s2214
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106/vector.h
+c000000004F60008B0000000000002977
+t1331691659
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.cpp
+c000000004F5CEE7600000000000003AC
+t1331490422
+s940
+i"hash.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.h
+c000000004F59819C00000000000001D1
+t1331265948
+s465
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp
+c000000004F60053800000000000001C6
+t1331692856
+s454
+i<iostream>
+i"hash.h"
+i"part1.h"
+i"part2.h"
+i"part3.h"
+i"part4.h"
+i"part5.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.cpp
+c000000004F5CEF7000000000000003DD
+t1331490672
+s989
+i"part1.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.h
+c000000004F5CEF580000000000000144
+t1331490648
+s324
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.cpp
+c000000004F5CF1A10000000000000F4A
+t1331491233
+s3914
+i"part2.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.h
+c000000004F5BD13000000000000001B0
+t1331417392
+s432
+i<iostream>
+i<string>
+i"random.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.cpp
+c000000004F60028400000000000009D0
+t1331692164
+s2512
+i"part3.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.h
+c000000004F5D1159000000000000027F
+t1331499353
+s639
+i<iostream>
+i<string>
+i"simpio.h"
+i"graphics.h"
+i"extgraph.h"
+i"vector.h"
+i"random.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.cpp
+c000000004F5BD35800000000000010DC
+t1331417944
+s4316
+i"part4.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.h
+c000000004F5BCE8100000000000001B7
+t1331416705
+s439
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp
+c000000004F5CF7EC0000000000000831
+t1331492844
+s2097
+i"part5.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.h
+c000000004F600553000000000000012C
+t1331692883
+s300
+i<iostream>
+i<fstream>
+i"vector.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/scores.txt
+c000000004F553A0D0000000000000023
+t1330985485
+s35
+
+N/usr/include/strings.h
+c000000004BBD2CE90000000000000DA4
+t1270689001
+s3492
+
+NInfo.plist
+c000000004F5E68BB0000000000000326
+t1331587259
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354144192#354144192#0(0"0(0#1#0"17198100224#0"0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/hash.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o /Users/tv/Desktop/ProgAssign01/hash.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384600.317586
+e353384600.900874
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+x/Users/tv/Desktop/ProgAssign01/hash.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/tv/Desktop/ProgAssign01/hash.cpp353384600#353384600#0(0"0(0#0#39"/Users/tv/Desktop/ProgAssign01/hash.cpp4300882208#797"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/hash.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353387568.326830
+e353387568.893533
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp353387568#353387568#0(0"0(0#0#94"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp4300882208#1139"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/main.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o /Users/tv/Desktop/ProgAssign01/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353385626.119472
+e353385630.129136
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+x/Users/tv/Desktop/ProgAssign01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/tv/Desktop/ProgAssign01/main.cpp353385626#353385630#0(0"0(0#0#39"/Users/tv/Desktop/ProgAssign01/main.cpp4300882208#797"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/main.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part1.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o /Users/tv/Desktop/ProgAssign01/part1.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384763.665664
+e353384764.720658
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o
+x/Users/tv/Desktop/ProgAssign01/part1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/tv/Desktop/ProgAssign01/part1.cpp353384763#353384764#0(0"0(0#0#40"/Users/tv/Desktop/ProgAssign01/part1.cpp4300882208#799"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/part1.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part1.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part2.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o /Users/tv/Desktop/ProgAssign01/part2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384763.689519
+e353384764.795930
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o
+x/Users/tv/Desktop/ProgAssign01/part2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/tv/Desktop/ProgAssign01/part2.cpp353384763#353384764#0(0"0(0#0#40"/Users/tv/Desktop/ProgAssign01/part2.cpp4300882208#799"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/part2.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part2.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part3.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o /Users/tv/Desktop/ProgAssign01/part3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353385075.170324
+e353385075.184894
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o
+x/Users/tv/Desktop/ProgAssign01/part3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/tv/Desktop/ProgAssign01/part3.cpp353385075#353385075#0(0"0(0#0#40"/Users/tv/Desktop/ProgAssign01/part3.cpp4300882208#799"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/part3.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part3.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part4.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o /Users/tv/Desktop/ProgAssign01/part4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384764.796168
+e353384765.356914
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o
+x/Users/tv/Desktop/ProgAssign01/part4.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/tv/Desktop/ProgAssign01/part4.cpp353384764#353384765#0(0"0(0#0#40"/Users/tv/Desktop/ProgAssign01/part4.cpp4300882208#799"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/part4.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part4.o0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353387568.328502
+e353387568.990377
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp353387568#353387568#0(0"0(0#0#95"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp4300882208#1141"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/part5.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o"0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o /Users/tv/Desktop/ProgAssign01/part5.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353385626.147243
+e353385630.019820
+r1
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o
+x/Users/tv/Desktop/ProgAssign01/part5.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/tv/Desktop/ProgAssign01/part5.cpp353385626#353385630#0(0"0(0#0#40"/Users/tv/Desktop/ProgAssign01/part5.cpp4300882208#799"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/part5.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/part5.o0#
+
+CCpResource ./ProgAssign01.app/Contents/Resources/scores.txt scores.txt
+s353384763.231616
+e353384763.316752
+r1
+xCpResource
+x./ProgAssign01.app/Contents/Resources/scores.txt
+xscores.txt
+lSLF07#2@15"Copy scores.txt353384763#353384763#0(0"0(0#0#41"/Users/tv/Desktop/ProgAssign01/scores.txt4300882208#297"    cd /Users/tv/Desktop/ProgAssign01    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/tv/Desktop/ProgAssign01/scores.txt /Users/tv/Desktop/ProgAssign01/./ProgAssign01.app/Contents/Resources0#
+
+CLd ./ProgAssign01.app/Contents/MacOS/ProgAssign01 normal i386
+s354144192.431480
+e354144195.137053
+r1
+xLd
+x./ProgAssign01.app/Contents/MacOS/ProgAssign01
+xnormal
+xi386
+lSLF07#2@51"Link ./ProgAssign01.app/Contents/MacOS/ProgAssign01354144192#354144195#0(0"0(0#0#0"17198103552#607"    cd "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01"    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L. -Lcs106 "-L/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/cs106" -F. -filelist "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/ProgAssign01.LinkFileList" -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./ProgAssign01.app/Contents/MacOS/ProgAssign010#
+
+CProcessInfoPlistFile ./ProgAssign01.app/Contents/Info.plist Info.plist
+s353384548.502858
+e353384548.505960
+r1
+xProcessInfoPlistFile
+x./ProgAssign01.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist353384548#353384548#0(0"0(0#0#41"/Users/tv/Desktop/ProgAssign01/Info.plist4300882208#206"    cd /Users/tv/Desktop/ProgAssign01    builtin-infoPlistUtility Info.plist -genpkginfo ./ProgAssign01.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./ProgAssign01.app/Contents/Info.plist0#
+
+CTouch ./ProgAssign01.app
+s354144195.137203
+e354144195.141312
+r1
+xTouch
+x./ProgAssign01.app
+lSLF07#2@24"Touch ./ProgAssign01.app354144195#354144195#0(0"0(0#0#0"4474478224#151"    cd "/Users/sebrenner/Public/Drop Box/ProgrammingAbstractions/My Coursework/Prog_Assignments/ProgAssign01"    /usr/bin/touch -c ./ProgAssign01.app0#
+

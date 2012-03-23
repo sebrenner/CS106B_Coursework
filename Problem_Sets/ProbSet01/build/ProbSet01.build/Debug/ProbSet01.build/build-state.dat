@@ -1,0 +1,882 @@
+TProbSet01
+v7
+r0
+t354159248.002120
+cCheck dependencies
+cProcessInfoPlistFile ./ProbSet01.app/Contents/Info.plist Info.plist
+cCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+cLd ./ProbSet01.app/Contents/MacOS/ProbSet01 normal i386
+cTouch ./ProbSet01.app
+
+N./ProbSet01.app
+t1332466447
+s102
+
+N./ProbSet01.app/Contents/Info.plist
+t1332463132
+s1110
+
+N./ProbSet01.app/Contents/MacOS/ProbSet01
+t1332466447
+s61216
+
+N./ProbSet01.app/Contents/PkgInfo
+t1332463132
+s8
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c0000000046F6F1A000000000000000EE
+t1190588832
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004F4D7F6E0000000000006530
+t1330478958
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F4D7F6F0000000000006560
+t1330478959
+s25952
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F4D801B000000000032B6C0
+t1330479131
+s3323584
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/ProbSet01.LinkFileList
+c000000004F64EEC000000000000001C7
+t1332014784
+s455
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+t1332015604
+s23952
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+t1332014736
+s31332
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+t1332015594
+s57948
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h
+c000000004F5E74B400000000000004BD
+t1331590324
+s1213
+i<string>
+i<exception>
+i"private/main.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h
+c000000004F5E6F6B0000000000000455
+t1331588971
+s1109
+i<string>
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/libcs106.a
+c000000004F5E6F6B000000000004C730
+t1331588971
+s313136
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h
+c000000004ECF6F8C00000000000005E0
+t1322217356
+s1504
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h
+c000000004F5E6F6B0000000000000668
+t1331588971
+s1640
+i"genlib.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/strutils.h
+c000000004F5E6F6B00000000000008A6
+t1331588971
+s2214
+i"genlib.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp
+c000000004F64F1F4000000000000013E
+t1332015604
+s318
+i"main.h"
+i"p1.h"
+i"p2.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.h
+c000000004F5E70C7000000000000007F
+t1331589319
+s127
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+c000000004F64EE8E0000000000000D94
+t1332014734
+s3476
+i"p1.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.h
+c000000004F5E7DFD00000000000004D7
+t1331592701
+s1239
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+c000000004F64F1E90000000000000886
+t1332015593
+s2182
+i"p2.h"
+
+N/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.h
+c000000004F5E7D29000000000000038F
+t1331592489
+s911
+i<fstream>
+i<iostream>
+i<string>
+i"simpio.h"
+i"error.h"
+i"strutils.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/ProbSet01.LinkFileList
+c000000004F6BC61C00000000000000A2
+t1332463132
+s162
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+t1332466444
+s84440
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+t1332462427
+s31168
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+t2
+s0
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o
+t1332462462
+s70860
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h
+c000000004F5E74B400000000000004BD
+t1331590324
+s1213
+i<string>
+i<exception>
+i"private/main.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/filelib.h
+c000000004F11BBD60000000000002C23
+t1326562262
+s11299
+i<iostream>
+i<fstream>
+i<string>
+i<vector>
+i"vector.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h
+c000000004F5E6F6B0000000000000455
+t1331588971
+s1109
+i<string>
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/libcs106.a
+c000000004F5E6F6B000000000004C730
+t1331588971
+s313136
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h
+c000000004ECF6F8C00000000000005E0
+t1322217356
+s1504
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h
+c000000004F5E6F6B0000000000000668
+t1331588971
+s1640
+i"genlib.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/strutils.h
+c000000004F5E6F6B00000000000008A6
+t1331588971
+s2214
+i"genlib.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/vector.h
+c000000004F5E6F6B0000000000002977
+t1331588971
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp
+c000000004F6BD30D0000000000002051
+t1332466445
+s8273
+i"main.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h
+c000000004F6BD25B00000000000002C5
+t1332466267
+s709
+i<fstream>
+i<iostream>
+i<string>
+i"error.h"
+i"simpio.h"
+i"strutils.h"
+i"vector.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+c000000004F6BA18E0000000000000D5B
+t1332453774
+s3419
+i"p1.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.h
+c000000004F6BC3580000000000000536
+t1332462424
+s1334
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+c000000004F6BA49E0000000000000967
+t1332454558
+s2407
+i"p2.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.h
+c000000004F5E7D29000000000000038F
+t1331592489
+s911
+i<fstream>
+i<iostream>
+i<string>
+i"simpio.h"
+i"error.h"
+i"strutils.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp
+c000000004F6BBB040000000000000A6F
+t1332460292
+s2671
+i"p3.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h
+c000000004F6BC37C00000000000004AD
+t1332462460
+s1197
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/ProbSet01.LinkFileList
+c000000004F6B9CEE00000000000001D3
+t1332452590
+s467
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+t1332015604
+s23952
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+t1332014736
+s31332
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+t1332015594
+s57948
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h
+c000000004F5E74B400000000000004BD
+t1331590324
+s1213
+i<string>
+i<exception>
+i"private/main.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h
+c000000004F5E6F6B0000000000000455
+t1331588971
+s1109
+i<string>
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/libcs106.a
+c000000004F5E6F6B000000000004C730
+t1331588971
+s313136
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h
+c000000004ECF6F8C00000000000005E0
+t1322217356
+s1504
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h
+c000000004F5E6F6B0000000000000668
+t1331588971
+s1640
+i"genlib.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/strutils.h
+c000000004F5E6F6B00000000000008A6
+t1331588971
+s2214
+i"genlib.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp
+c000000004F64F1F4000000000000013E
+t1332015604
+s318
+i"main.h"
+i"p1.h"
+i"p2.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.h
+c000000004F5E70C7000000000000007F
+t1331589319
+s127
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+c000000004F64EE8E0000000000000D94
+t1332014734
+s3476
+i"p1.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.h
+c000000004F5E7DFD00000000000004D7
+t1331592701
+s1239
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+c000000004F64F1E90000000000000886
+t1332015593
+s2182
+i"p2.h"
+
+N/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.h
+c000000004F5E7D29000000000000038F
+t1331592489
+s911
+i<fstream>
+i<iostream>
+i<string>
+i"simpio.h"
+i"error.h"
+i"strutils.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/ProbSet01.LinkFileList
+c000000004F60155D000000000000012A
+t1331696989
+s298
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+t1331697119
+s66340
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+t1331697118
+s71360
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem1.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem2.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem3.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h
+c000000004F600C8400000000000004BD
+t1331694724
+s1213
+i<string>
+i<exception>
+i"private/main.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/foreach.h
+c000000004F1353A600000000000005D0
+t1326666662
+s1488
+i"private/foreachpriv.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h
+c000000004F60073B0000000000000455
+t1331693371
+s1109
+i<string>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/libcs106.a
+c000000004F60073B000000000004C730
+t1331693371
+s313136
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/foreachpriv.h
+c000000004E9E3D4A0000000000001171
+t1318993226
+s4465
+i<iterator>
+i<map>
+i<cstddef>
+i<cstring>
+i<ios>
+i<fstream>
+i<sstream>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h
+c000000004ED1075C00000000000005E0
+t1322321756
+s1504
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/vectorimpl.cpp
+c000000004F0482640000000000001416
+t1325695588
+s5142
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/vectorpriv.h
+c000000004F0485C40000000000001280
+t1325696452
+s4736
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h
+c000000004F60073B0000000000000668
+t1331693371
+s1640
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/strutils.h
+c000000004F60073B00000000000008A6
+t1331693371
+s2214
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/vector.h
+c000000004F60073B0000000000002977
+t1331693371
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp
+c000000004F6015B8000000000000012A
+t1331697080
+s298
+i"main.h"
+i"p1.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.h
+c000000004F600897000000000000007F
+t1331693719
+s127
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+c000000004F6015DE0000000000000BC0
+t1331697118
+s3008
+i"p1.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.h
+c000000004F6015CD00000000000004D7
+t1331697101
+s1239
+i<iostream>
+i<string>
+i"strings.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+c000000004F600E820000000000000874
+t1331695234
+s2164
+i"p2.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.h
+c000000004F6014F9000000000000038F
+t1331696889
+s911
+i<fstream>
+i<iostream>
+i<string>
+i"simpio.h"
+i"error.h"
+i"strutils.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp
+c000000004F6012FC0000000000000A2D
+t1331696380
+s2605
+i"p3.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h
+c000000004F600EB30000000000000473
+t1331695283
+s1139
+i<fstream>
+i<iostream>
+i<string>
+i"error.h"
+i"simpio.h"
+i"vector.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp
+c000000004F6007FD0000000000000B96
+t1331693565
+s2966
+i<string>
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp
+c000000004F590D7D0000000000000948
+t1331236221
+s2376
+i<fstream>
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp
+c000000004F59187D0000000000000A40
+t1331239037
+s2624
+i<fstream>
+i<iostream>
+i<string>
+i"error.h"
+i"simpio.h"
+i"vector.h"
+
+N/usr/include/strings.h
+c000000004BBD2CE90000000000000DA4
+t1270689001
+s3492
+
+NInfo.plist
+c000000004F5E6F6B0000000000000326
+t1331588971
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354159247#354159247#0(0"0(0#1#0"4425786688#0"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s353708404.351633
+e353708405.009634
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+x/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@98"Compile /Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp353708404#353708405#0(0"0(0#0#90"/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp4464336528#1093"    cd "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp" -o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s354159247.709466
+e354159247.712603
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+x/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@107"Compile /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp354159247#354159247#0(1076"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h:12,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h:15,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp:10:/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h:39:1: warning: "main" redefinedIn file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h:50,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h:14,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp:10:/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h:50:1: warning: this is the location of the previous definition2(22@16""main" redefined354159247#382#138#4(7@121"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp354159247#18446744073709551615#0#0(6@99"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp354159245#10#0#10#0#0"0(7@119"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h354159247#18446744073709551615#0#0(6@97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h354159067#15#0#15#0#0"0(7@127"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h354159247#18446744073709551615#0#0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h353281771#12#0#12#0#0"0(13@125""main" redefined in /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h354159247#18446744073709551615#0#0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353281771#39#0#39#0#0"0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353281771#39#0#39#0#13""*" redefined0(22@47"This is the location of the previous definition354159247#901#175#4(7@121"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp354159247#18446744073709551615#0#0(6@99"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp354159245#10#0#10#0#0"0(7@119"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h354159247#18446744073709551615#0#0(6@97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.h354159067#14#0#14#0#0"0(7@126"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h354159247#18446744073709551615#0#0(6@104"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h353283124#50#0#50#0#0"0(13@162"This is the location of the previous definition in /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h354159247#18446744073709551615#0#0(6@111"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h343910156#50#0#50#0#0"0(6@111"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h343910156#50#0#50#0#47"this is the location of the previous definition0(0#0#99"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp4425784976#1147"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/main.cpp" -o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o "/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353389919.190475
+e353389919.605088
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp353389919#353389919#0(0"0(0#0#87"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp4300882208#1070"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/main.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s353707586.238593
+e353707586.241593
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+x/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp353707586#353707586#0(0"0(0#0#88"/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp4463263376#1089"    cd "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp" -o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s354155226.504344
+e354155227.112436
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+x/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@105"Compile /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp354155226#354155227#0(0"0(0#0#97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp4401495696#1143"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p1.cpp" -o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o "/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353389919.191703
+e353389919.193038
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp353389919#353389919#0(0"0(0#0#85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp4300882208#1066"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p1.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p1.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s353708405.009823
+e353708405.011072
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+x/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353708405#353708405#0(0"0(0#0#88"/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp4464336528#1089"    cd "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp" -o "/Users/scott/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s354147359.959656
+e354147360.108744
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+x/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@105"Compile /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp354147359#354147360#0(0"0(0#0#97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp4499811984#1143"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p2.cpp" -o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o "/Users/sebrenner/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353389690.131361
+e353389690.599039
+r0
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp: In function 'int problem2()':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:30: error: 'getLine' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:37: error: 'mySummary' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp: In function 'EXAMSUMMARY summarizeScores(std::string)':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:66: error: expected primary-expression before 'char'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:67: error: expected ',' or ';' before ')' token
+lSLF07#2@93"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353389690#353389690#0(811"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp: In function 'int problem2()':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:30: error: 'getLine' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:37: error: 'mySummary' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp: In function 'EXAMSUMMARY summarizeScores(std::string)':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:66: error: expected primary-expression before 'char'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp:67: error: expected ',' or ';' before ')' token4(4@40"'getLine' was not declared in this scope353389690#117#138#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353388034#30#0#30#0#34"'*' was not declared in this scope0(4@42"'mySummary' was not declared in this scope353389690#255#140#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353388034#37#0#37#0#34"'*' was not declared in this scope0(4@41"Expected primary-expression before 'char'353389690#538#139#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353388034#66#0#66#0#19"expected * before *0(4@36"Expected ',' or ';' before ')' token353389690#677#134#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp353388034#67#0#67#0#19"expected * before *0(0#0#85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp4300882208#1066"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p2.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p2.o"1#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+s354155261.935951
+e354155262.619268
+r1
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o
+x/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h:12,
+o                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h:17,
+o                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:
+o/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h:39:1: warning: "main" redefined
+oIn file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h:50,
+o                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h:16,
+o                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:
+o/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h:50:1: warning: this is the location of the previous definition
+lSLF07#2@105"Compile /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp354155261#354155262#0(1068"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h:12,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h:17,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h:39:1: warning: "main" redefinedIn file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h:50,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h:16,                 from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h:50:1: warning: this is the location of the previous definition2(22@16""main" redefined354155262#378#138#4(7@119"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp354155262#18446744073709551615#0#0(6@97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp354153092#10#0#10#0#0"0(7@117"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h354155262#18446744073709551615#0#0(6@95"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h354155260#17#0#17#0#0"0(7@127"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h354155262#18446744073709551615#0#0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h353281771#12#0#12#0#0"0(13@125""main" redefined in /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h354155262#18446744073709551615#0#0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353281771#39#0#39#0#0"0(6@105"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353281771#39#0#39#0#13""*" redefined0(22@47"This is the location of the previous definition354155262#893#175#4(7@119"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp354155262#18446744073709551615#0#0(6@97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp354153092#10#0#10#0#0"0(7@117"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h354155262#18446744073709551615#0#0(6@95"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.h354155260#16#0#16#0#0"0(7@126"In file included from /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h354155262#18446744073709551615#0#0(6@104"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/error.h353283124#50#0#50#0#0"0(13@162"This is the location of the previous definition in /Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h354155262#18446744073709551615#0#0(6@111"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h343910156#50#0#50#0#0"0(6@111"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h343910156#50#0#50#0#47"this is the location of the previous definition0(0#0#97"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp4419137168#1143"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/p3.cpp" -o "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o"0#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353389690.599156
+e353389691.161466
+r0
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h:12,
+o                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h:44,
+o                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h:39:1: warning: "main" redefined
+oIn file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h:50,
+o                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h:43,
+o                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h:50:1: warning: this is the location of the previous definition
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp: In function 'void CountLetters(std::string)':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:67: error: expected primary-expression before ',' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:67: error: 'readEntireFile' was not declared in this scope
+lSLF07#2@93"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389690#353389691#0(1392"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h:12,                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h:44,                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h:39:1: warning: "main" redefinedIn file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h:50,                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h:43,                 from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:10:/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h:50:1: warning: this is the location of the previous definition/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp: In function 'void CountLetters(std::string)':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:67: error: expected primary-expression before ',' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp:67: error: 'readEntireFile' was not declared in this scope4(22@16""main" redefined353389690#342#126#4(7@107"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389690#18446744073709551615#0#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389180#10#0#10#0#0"0(7@105"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h353389690#18446744073709551615#0#0(6@83"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h353388083#44#0#44#0#0"0(7@115"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h353389690#18446744073709551615#0#0(6@93"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/simpio.h353386171#12#0#12#0#0"0(13@113""main" redefined in /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353389690#18446744073709551615#0#0(6@93"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353386171#39#0#39#0#0"0(6@93"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/genlib.h353386171#39#0#39#0#13""*" redefined0(22@47"This is the location of the previous definition353389690#809#163#4(7@107"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389690#18446744073709551615#0#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389180#10#0#10#0#0"0(7@105"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h353389690#18446744073709551615#0#0(6@83"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.h353388083#43#0#43#0#0"0(7@114"In file included from /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h353389690#18446744073709551615#0#0(6@92"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/error.h353387524#50#0#50#0#0"0(13@150"This is the location of the previous definition in /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h353389690#18446744073709551615#0#0(6@99"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h344014556#50#0#50#0#0"0(6@99"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/cs106/private/main.h344014556#50#0#50#0#47"this is the location of the previous definition0(4@44"Expected primary-expression before ',' token353389691#1105#142#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389180#67#0#67#0#19"expected * before *0(4@47"'readEntireFile' was not declared in this scope353389691#1247#145#0(6@85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp353389180#67#0#67#0#34"'*' was not declared in this scope0(0#0#85"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp4300882208#1066"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/p3.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/p3.o"1#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem1.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353386884.800377
+e353386885.141445
+r0
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem1.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:31: error: 'string' does not name a type
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: variable or field 'CensorString2' declared void
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'string' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'text' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'string' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp: In function 'int problem1()':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'cout' is not a member of 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'CensorString1' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'endl' is not a member of 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:36: error: 'string' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:36: error: expected `;' before 'myText'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:37: error: 'myText' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:37: error: 'CensorString2' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:38: error: expected `;' before 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:40: error: 'cout' is not a member of 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:40: error: 'endl' is not a member of 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:41: error: expected `;' before 'myText'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:43: error: expected `;' before 'std'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp: At global scope:
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:47: error: 'string' does not name a type
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: variable or field 'CensorString2' declared void
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'string' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'text' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'string' was not declared in this scope
+lSLF07#2@99"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386884#353386885#0(3303"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:31: error: 'string' does not name a type/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: variable or field 'CensorString2' declared void/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'string' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'text' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:32: error: 'string' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp: In function 'int problem1()':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'cout' is not a member of 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'CensorString1' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:35: error: 'endl' is not a member of 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:36: error: 'string' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:36: error: expected `;' before 'myText'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:37: error: 'myText' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:37: error: 'CensorString2' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:38: error: expected `;' before 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:40: error: 'cout' is not a member of 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:40: error: 'endl' is not a member of 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:41: error: expected `;' before 'myText'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:43: error: expected `;' before 'std'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp: At global scope:/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:47: error: 'string' does not name a type/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: variable or field 'CensorString2' declared void/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'string' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'text' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp:63: error: 'string' was not declared in this scope23(4@29"'string' does not name a type353386885#0#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#31#0#31#0#24"'*' does not name a type0(4@47"Variable or field 'CensorString2' declared void353386885#133#151#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#32#0#32#0#0"0(4@39"'string' was not declared in this scope353386885#284#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#32#0#32#0#34"'*' was not declared in this scope0(4@37"'text' was not declared in this scope353386885#427#141#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#32#0#32#0#34"'*' was not declared in this scope0(4@39"'string' was not declared in this scope353386885#568#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#32#0#32#0#34"'*' was not declared in this scope0(4@31"'cout' is not a member of 'std'353386885#834#135#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#35#0#35#0#0"0(4@46"'CensorString1' was not declared in this scope353386885#969#150#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#35#0#35#0#34"'*' was not declared in this scope0(4@31"'endl' is not a member of 'std'353386885#1119#135#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#35#0#35#0#0"0(4@39"'string' was not declared in this scope353386885#1254#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#36#0#36#0#34"'*' was not declared in this scope0(4@28"Expected `;' before 'myText'353386885#1397#132#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#36#0#36#0#19"expected * before *0(4@39"'myText' was not declared in this scope353386885#1529#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#37#0#37#0#34"'*' was not declared in this scope0(4@46"'CensorString2' was not declared in this scope353386885#1672#150#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#37#0#37#0#34"'*' was not declared in this scope0(4@25"Expected `;' before 'std'353386885#1822#129#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#38#0#38#0#19"expected * before *0(4@31"'cout' is not a member of 'std'353386885#1951#135#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#40#0#40#0#0"0(4@31"'endl' is not a member of 'std'353386885#2086#135#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#40#0#40#0#0"0(4@28"Expected `;' before 'myText'353386885#2221#132#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#41#0#41#0#19"expected * before *0(4@25"Expected `;' before 'std'353386885#2353#129#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#43#0#43#0#19"expected * before *0(23@16"At global scope:353386885#2482#110#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#0#0#0#0#0"0(4@29"'string' does not name a type353386885#2592#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#47#0#47#0#24"'*' does not name a type0(4@47"Variable or field 'CensorString2' declared void353386885#2725#151#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#63#0#63#0#0"0(4@39"'string' was not declared in this scope353386885#2876#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#63#0#63#0#34"'*' was not declared in this scope0(4@37"'text' was not declared in this scope353386885#3019#141#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#63#0#63#0#34"'*' was not declared in this scope0(4@39"'string' was not declared in this scope353386885#3160#143#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp353386365#63#0#63#0#34"'*' was not declared in this scope0(0#0#91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp4300882208#1078"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem1.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem1.o"1#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem2.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353386884.914822
+e353386885.457087
+r0
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem2.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: ISO C++ forbids initialization of member 'min'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: making 'min' static
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: ISO C++ forbids in-class initialization of non-const static member 'min'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: ISO C++ forbids initialization of member 'max'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: making 'max' static
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: ISO C++ forbids in-class initialization of non-const static member 'max'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: ISO C++ forbids initialization of member 'avg'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: making 'avg' static
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: ISO C++ forbids in-class initialization of non-const static member 'avg'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:29: error: expected initializer before 'summarizeScores'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp: In function 'int Main()':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:35: error: 'GetFile' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:37: error: 'summarizeScores' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:42: error: 'mySummary' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp: In function 'EXAMSUMMARY summarizeScores(std::string)':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:60: error: 'error' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:65: error: expected unqualified-id before '}' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:65: error: expected ';' before '}' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:71: error: expected primary-expression before 'char'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:72: error: expected `;' before 'double'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:73: error: 'tempScore' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:74: error: 'tempScore' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:76: error: 'scoreSume' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:76: error: 'tempScore' was not declared in this scope
+lSLF07#2@99"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp353386884#353386885#0(3486"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: ISO C++ forbids initialization of member 'min'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: making 'min' static/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:23: error: ISO C++ forbids in-class initialization of non-const static member 'min'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: ISO C++ forbids initialization of member 'max'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: making 'max' static/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:24: error: ISO C++ forbids in-class initialization of non-const static member 'max'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: ISO C++ forbids initialization of member 'avg'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: making 'avg' static/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:25: error: ISO C++ forbids in-class initialization of non-const static member 'avg'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:29: error: expected initializer before 'summarizeScores'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp: In function 'int Main()':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:35: error: 'GetFile' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:37: error: 'summarizeScores' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:42: error: 'mySummary' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp: In function 'EXAMSUMMARY summarizeScores(std::string)':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:60: error: 'error' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:65: error: expected unqualified-id before '}' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:65: error: expected ';' before '}' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:71: error: expected primary-expression before 'char'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:72: error: expected `;' before 'double'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:73: error: 'tempScore' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:74: error: 'tempScore' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:76: error: 'scoreSume' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp:76: error: 'tempScore' was not declared in this scope22(4@46"ISO C++ forbids initialization of member 'min'353386885#0#150#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#23#0#23#0#0"0(4@19"Making 'min' static353386885#150#123#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#23#0#23#0#0"0(4@72"ISO C++ forbids in-class initialization of non-const static member 'min'353386885#273#176#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#23#0#23#0#0"0(4@46"ISO C++ forbids initialization of member 'max'353386885#449#150#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#24#0#24#0#0"0(4@19"Making 'max' static353386885#599#123#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#24#0#24#0#0"0(4@72"ISO C++ forbids in-class initialization of non-const static member 'max'353386885#722#176#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#24#0#24#0#0"0(4@46"ISO C++ forbids initialization of member 'avg'353386885#898#150#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#25#0#25#0#0"0(4@19"Making 'avg' static353386885#1048#123#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#25#0#25#0#0"0(4@72"ISO C++ forbids in-class initialization of non-const static member 'avg'353386885#1171#176#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#25#0#25#0#0"0(4@45"Expected initializer before 'summarizeScores'353386885#1347#149#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#29#0#29#0#19"expected * before *0(4@40"'GetFile' was not declared in this scope353386885#1615#144#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#35#0#35#0#34"'*' was not declared in this scope0(4@48"'summarizeScores' was not declared in this scope353386885#1759#152#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#37#0#37#0#34"'*' was not declared in this scope0(4@42"'mySummary' was not declared in this scope353386885#1911#146#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#42#0#42#0#34"'*' was not declared in this scope0(4@38"'error' was not declared in this scope353386885#2206#142#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#60#0#60#0#34"'*' was not declared in this scope0(4@40"Expected unqualified-id before '}' token353386885#2348#144#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#65#0#65#0#19"expected * before *0(4@29"Expected ';' before '}' token353386885#2492#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#65#0#65#0#19"expected * before *0(4@41"Expected primary-expression before 'char'353386885#2625#145#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#71#0#71#0#19"expected * before *0(4@28"Expected `;' before 'double'353386885#2770#132#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#72#0#72#0#19"expected * before *0(4@42"'tempScore' was not declared in this scope353386885#2902#146#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#73#0#73#0#34"'*' was not declared in this scope0(4@42"'tempScore' was not declared in this scope353386885#3048#146#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#74#0#74#0#34"'*' was not declared in this scope0(4@42"'scoreSume' was not declared in this scope353386885#3194#146#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#76#0#76#0#34"'*' was not declared in this scope0(4@42"'tempScore' was not declared in this scope353386885#3340#146#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp352929021#76#0#76#0#34"'*' was not declared in this scope0(0#0#91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp4300882208#1078"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem2.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem2.o"1#
+
+CCompileC build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem3.o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s353386885.141562
+e353386885.606837
+r0
+xCompileC
+xbuild/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem3.o
+x/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:34:19: error: error.h: No such file or directory
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp: In function 'void CountLetters(std::string)':
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:59: error: 'fileName' was not declared in this scope
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:66: error: expected initializer before '<' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:66: error: expected `;' before ')' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:72: error: expected primary-expression before 'char'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:73: error: expected `;' before 'tempString'
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:74: error: expected initializer before '<' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:74: error: expected `;' before ')' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:81: error: expected `;' before '}' token
+o/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:87: error: expected `}' at end of input
+lSLF07#2@99"Compile /Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp353386885#353386885#0(1519"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:34:19: error: error.h: No such file or directory/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp: In function 'void CountLetters(std::string)':/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:59: error: 'fileName' was not declared in this scope/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:66: error: expected initializer before '<' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:66: error: expected `;' before ')' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:72: error: expected primary-expression before 'char'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:73: error: expected `;' before 'tempString'/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:74: error: expected initializer before '<' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:74: error: expected `;' before ')' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:81: error: expected `;' before '}' token/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp:87: error: expected `}' at end of input10(4@34"Error.h: No such file or directory353386885#0#141#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#34#0#34#0#28"*: No such file or directory0(4@41"'fileName' was not declared in this scope353386885#280#145#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#59#0#59#0#34"'*' was not declared in this scope0(4@37"Expected initializer before '<' token353386885#425#141#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#66#0#66#0#19"expected * before *0(4@29"Expected `;' before ')' token353386885#566#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#66#0#66#0#19"expected * before *0(4@41"Expected primary-expression before 'char'353386885#699#145#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#72#0#72#0#19"expected * before *0(4@32"Expected `;' before 'tempString'353386885#844#136#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#73#0#73#0#19"expected * before *0(4@37"Expected initializer before '<' token353386885#980#141#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#74#0#74#0#19"expected * before *0(4@29"Expected `;' before ')' token353386885#1121#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#74#0#74#0#19"expected * before *0(4@29"Expected `;' before '}' token353386885#1254#133#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#81#0#81#0#19"expected * before *0(4@28"Expected `}' at end of input353386885#1387#132#0(6@91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp352931837#87#0#87#0#0"0(0#0#91"/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp4300882208#1078"    cd "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/ProbSet01.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources/i386" "-I/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/DerivedSources" -fstack-check -c "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/problem3.cpp" -o "/Users/tv/Desktop/ProgrammingAbstractions/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/problem3.o"1#
+
+CLd ./ProbSet01.app/Contents/MacOS/ProbSet01 normal i386
+s354159247.712705
+e354159247.988971
+r1
+xLd
+x./ProbSet01.app/Contents/MacOS/ProbSet01
+xnormal
+xi386
+lSLF07#2@45"Link ./ProbSet01.app/Contents/MacOS/ProbSet01354159247#354159248#0(0"0(0#0#0"4425784976#562"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L. -Lcs106 "-L/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/cs106" -F. -filelist "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/build/ProbSet01.build/Debug/ProbSet01.build/Objects-normal/i386/ProbSet01.LinkFileList" -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./ProbSet01.app/Contents/MacOS/ProbSet010#
+
+CProcessInfoPlistFile ./ProbSet01.app/Contents/Info.plist Info.plist
+s354155932.227160
+e354155932.231891
+r1
+xProcessInfoPlistFile
+x./ProbSet01.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist354155932#354155932#0(0"0(0#0#101"/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01/Info.plist4483186432#262"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    builtin-infoPlistUtility Info.plist -genpkginfo ./ProbSet01.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./ProbSet01.app/Contents/Info.plist0#
+
+CTouch ./ProbSet01.app
+s354159247.989098
+e354159248.002054
+r1
+xTouch
+x./ProbSet01.app
+lSLF07#2@21"Touch ./ProbSet01.app354159247#354159248#0(0"0(0#0#0"4425784976#138"    cd "/Users/sebrenner/Desktop/ProgrammingAbstractions -- A/My Coursework/Problem_Sets/ProbSet01"    /usr/bin/touch -c ./ProbSet01.app0#
+

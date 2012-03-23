@@ -1,0 +1,126 @@
+Tadd2
+v7
+r0
+t353383596.755073
+cCheck dependencies
+cProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+cCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /Users/tv/Desktop/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./add2.app
+t2
+s0
+
+N./add2.app/Contents/Info.plist
+t1331690796
+s710
+
+N./add2.app/Contents/MacOS/add2
+t2
+s0
+
+N./add2.app/Contents/PkgInfo
+t1331690796
+s8
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c0000000046F6F1A000000000000000EE
+t1190588832
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004DF9CD1C000000000000A5F0
+t1308216604
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004DE5A33C0000000000785970
+t1306895164
+s7887216
+
+N/Users/tv/Desktop/add2/add2.cpp
+c0000000048AC8B1C00000000000001D0
+t1219267356
+s464
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+
+N/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.LinkFileList
+c000000004F5FFD2C0000000000000054
+t1331690796
+s84
+
+N/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+t2
+s0
+
+N/Users/tv/Desktop/add2/cs106/genlib.h
+c000000004F5FFCFC0000000000000455
+t1331690748
+s1109
+i<string>
+
+N/Users/tv/Desktop/add2/cs106/libcs106.a
+c000000004F5FFCFC000000000004C730
+t1331690748
+s313136
+
+N/Users/tv/Desktop/add2/cs106/simpio.h
+c000000004F5FFCFC0000000000000668
+t1331690748
+s1640
+i"genlib.h"
+
+NInfo.plist
+c000000004F5FFCFC0000000000000326
+t1331690748
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies353383596#353383596#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /Users/tv/Desktop/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353383596.392904
+e353383596.754907
+r0
+xCompileC
+xbuild/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+x/Users/tv/Desktop/add2/add2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/tv/Desktop/add2/add2.cpp:8:20: error: iostream: No such file or directory
+oIn file included from /Users/tv/Desktop/add2/add2.cpp:9:
+o/Users/tv/Desktop/add2/cs106/genlib.h:16:18: error: string: No such file or directory
+oIn file included from /Users/tv/Desktop/add2/add2.cpp:9:
+o/Users/tv/Desktop/add2/cs106/genlib.h:27: error: variable or field 'Error' declared void
+o/Users/tv/Desktop/add2/cs106/genlib.h:27: error: 'string' was not declared in this scope
+oIn file included from /Users/tv/Desktop/add2/add2.cpp:10:
+o/Users/tv/Desktop/add2/cs106/simpio.h:61: error: 'string' does not name a type
+o/Users/tv/Desktop/add2/add2.cpp: In function 'int Main()':
+o/Users/tv/Desktop/add2/add2.cpp:16: error: 'cout' was not declared in this scope
+o/Users/tv/Desktop/add2/add2.cpp:16: error: 'endl' was not declared in this scope
+lSLF07#2@39"Compile /Users/tv/Desktop/add2/add2.cpp353383596#353383596#0(817"/Users/tv/Desktop/add2/add2.cpp:8:20: error: iostream: No such file or directoryIn file included from /Users/tv/Desktop/add2/add2.cpp:9:/Users/tv/Desktop/add2/cs106/genlib.h:16:18: error: string: No such file or directoryIn file included from /Users/tv/Desktop/add2/add2.cpp:9:/Users/tv/Desktop/add2/cs106/genlib.h:27: error: variable or field 'Error' declared void/Users/tv/Desktop/add2/cs106/genlib.h:27: error: 'string' was not declared in this scopeIn file included from /Users/tv/Desktop/add2/add2.cpp:10:/Users/tv/Desktop/add2/cs106/simpio.h:61: error: 'string' does not name a type/Users/tv/Desktop/add2/add2.cpp: In function 'int Main()':/Users/tv/Desktop/add2/add2.cpp:16: error: 'cout' was not declared in this scope/Users/tv/Desktop/add2/add2.cpp:16: error: 'endl' was not declared in this scope7(4@35"Iostream: No such file or directory353383596#0#81#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#8#0#8#0#28"*: No such file or directory0(4@33"String: No such file or directory353383596#138#86#2(7@53"In file included from /Users/tv/Desktop/add2/add2.cpp353383596#18446744073709551615#0#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#9#0#9#0#0"0(13@74"String: No such file or directory in /Users/tv/Desktop/add2/cs106/genlib.h353383596#18446744073709551615#0#0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#16#0#16#0#0"0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#16#0#16#0#28"*: No such file or directory0(4@39"Variable or field 'Error' declared void353383596#281#89#2(7@53"In file included from /Users/tv/Desktop/add2/add2.cpp353383596#18446744073709551615#0#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#9#0#9#0#0"0(13@80"Variable or field 'Error' declared void in /Users/tv/Desktop/add2/cs106/genlib.h353383596#18446744073709551615#0#0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#27#0#27#0#0"0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#27#0#27#0#0"0(4@39"'string' was not declared in this scope353383596#370#89#2(7@53"In file included from /Users/tv/Desktop/add2/add2.cpp353383596#18446744073709551615#0#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#9#0#9#0#0"0(13@80"'string' was not declared in this scope in /Users/tv/Desktop/add2/cs106/genlib.h353383596#18446744073709551615#0#0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#27#0#27#0#0"0(6@37"/Users/tv/Desktop/add2/cs106/genlib.h353383548#27#0#27#0#34"'*' was not declared in this scope0(4@29"'string' does not name a type353383596#517#79#2(7@53"In file included from /Users/tv/Desktop/add2/add2.cpp353383596#18446744073709551615#0#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#10#0#10#0#0"0(13@70"'string' does not name a type in /Users/tv/Desktop/add2/cs106/simpio.h353383596#18446744073709551615#0#0(6@37"/Users/tv/Desktop/add2/cs106/simpio.h353383548#61#0#61#0#0"0(6@37"/Users/tv/Desktop/add2/cs106/simpio.h353383548#61#0#61#0#24"'*' does not name a type0(4@37"'cout' was not declared in this scope353383596#655#81#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#16#0#16#0#34"'*' was not declared in this scope0(4@37"'endl' was not declared in this scope353383596#736#81#0(6@31"/Users/tv/Desktop/add2/add2.cpp240960156#16#0#16#0#34"'*' was not declared in this scope0(0#0#31"/Users/tv/Desktop/add2/add2.cpp4300882208#745"    cd /Users/tv/Desktop/add2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/add2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/DerivedSources/i386 -I/Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/DerivedSources -fstack-check -c /Users/tv/Desktop/add2/add2.cpp -o /Users/tv/Desktop/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o1#
+
+CLd ./add2.app/Contents/MacOS/add2 normal i386
+r0
+
+CProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+s353383596.388479
+e353383596.392788
+r1
+xProcessInfoPlistFile
+x./add2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist353383596#353383596#0(0"0(0#0#33"/Users/tv/Desktop/add2/Info.plist27303274607411248#182"    cd /Users/tv/Desktop/add2    builtin-infoPlistUtility Info.plist -genpkginfo ./add2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./add2.app/Contents/Info.plist0#
+
+CTouch ./add2.app
+r0
+

@@ -1,0 +1,175 @@
+TProgAssign01
+v7
+r0
+t353384548.543120
+cCheck dependencies
+cProcessInfoPlistFile ./ProgAssign01.app/Contents/Info.plist Info.plist
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o /Users/tv/Desktop/ProgAssign01/hash.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o /Users/tv/Desktop/ProgAssign01/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./ProgAssign01.app
+t2
+s0
+
+N./ProgAssign01.app/Contents/Info.plist
+t1331691748
+s734
+
+N./ProgAssign01.app/Contents/MacOS/ProgAssign01
+t2
+s0
+
+N./ProgAssign01.app/Contents/PkgInfo
+t1331691748
+s8
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c0000000046F6F1A000000000000000EE
+t1190588832
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004DF9CD1C000000000000A5F0
+t1308216604
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004DE5A33C0000000000785970
+t1306895164
+s7887216
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/ProgAssign01.LinkFileList
+c000000004F6000E400000000000000D8
+t1331691748
+s216
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/tv/Desktop/ProgAssign01/cs106/genlib.h
+c000000004F60008B0000000000000455
+t1331691659
+s1109
+i<string>
+
+N/Users/tv/Desktop/ProgAssign01/cs106/libcs106.a
+c000000004F60008B000000000004C730
+t1331691659
+s313136
+
+N/Users/tv/Desktop/ProgAssign01/cs106/simpio.h
+c000000004F60008B0000000000000668
+t1331691659
+s1640
+i"genlib.h"
+
+N/Users/tv/Desktop/ProgAssign01/hash.cpp
+c000000004F5CEE7600000000000003AC
+t1331490422
+s940
+i"hash.h"
+
+N/Users/tv/Desktop/ProgAssign01/hash.h
+c000000004F59819C00000000000001D1
+t1331265948
+s465
+i<iostream>
+i<string>
+i"simpio.h"
+
+N/Users/tv/Desktop/ProgAssign01/main.cpp
+c000000004F6000D500000000000001E0
+t1331691733
+s480
+i<iostream>
+i"hash.h"
+
+NInfo.plist
+c000000004F60008B0000000000000326
+t1331691659
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies353384548#353384548#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o /Users/tv/Desktop/ProgAssign01/hash.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384548.506059
+e353384548.543028
+r0
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o
+x/Users/tv/Desktop/ProgAssign01/hash.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:
+o/Users/tv/Desktop/ProgAssign01/hash.h:12:20: error: iostream: No such file or directory
+o/Users/tv/Desktop/ProgAssign01/hash.h:13:18: error: string: No such file or directory
+oIn file included from /Users/tv/Desktop/ProgAssign01/cs106/simpio.h:12,
+o                 from /Users/tv/Desktop/ProgAssign01/hash.h:14,
+o                 from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:
+o/Users/tv/Desktop/ProgAssign01/cs106/genlib.h:27: error: variable or field 'Error' declared void
+o/Users/tv/Desktop/ProgAssign01/cs106/genlib.h:27: error: 'string' was not declared in this scope
+oIn file included from /Users/tv/Desktop/ProgAssign01/hash.h:14,
+o                 from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:
+o/Users/tv/Desktop/ProgAssign01/cs106/simpio.h:61: error: 'string' does not name a type
+oIn file included from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:
+o/Users/tv/Desktop/ProgAssign01/hash.h:19: error: 'string' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.h:19: error: expected primary-expression before 'int'
+o/Users/tv/Desktop/ProgAssign01/hash.h:19: error: initializer expression list treated as compound expression
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: redefinition of 'int Hash'
+o/Users/tv/Desktop/ProgAssign01/hash.h:19: error: 'int Hash' previously defined here
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: 'string' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: expected primary-expression before 'int'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp: In function 'int createHash()':
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:29: error: 'cout' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:29: error: 'endl' was not declared in this scope
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:30: error: 'cout' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:31: error: 'string' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:31: error: expected `;' before 'name'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:33: error: 'name' was not declared in this scope
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:33: error: 'Hash' cannot be used as a function
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:34: error: 'cout' is not a member of 'std'
+o/Users/tv/Desktop/ProgAssign01/hash.cpp:34: error: 'endl' is not a member of 'std'
+lSLF07#2@47"Compile /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#353384548#0(2368"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:/Users/tv/Desktop/ProgAssign01/hash.h:12:20: error: iostream: No such file or directory/Users/tv/Desktop/ProgAssign01/hash.h:13:18: error: string: No such file or directoryIn file included from /Users/tv/Desktop/ProgAssign01/cs106/simpio.h:12,                 from /Users/tv/Desktop/ProgAssign01/hash.h:14,                 from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:/Users/tv/Desktop/ProgAssign01/cs106/genlib.h:27: error: variable or field 'Error' declared void/Users/tv/Desktop/ProgAssign01/cs106/genlib.h:27: error: 'string' was not declared in this scopeIn file included from /Users/tv/Desktop/ProgAssign01/hash.h:14,                 from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:/Users/tv/Desktop/ProgAssign01/cs106/simpio.h:61: error: 'string' does not name a typeIn file included from /Users/tv/Desktop/ProgAssign01/hash.cpp:9:/Users/tv/Desktop/ProgAssign01/hash.h:19: error: 'string' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.h:19: error: expected primary-expression before 'int'/Users/tv/Desktop/ProgAssign01/hash.h:19: error: initializer expression list treated as compound expression/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: redefinition of 'int Hash'/Users/tv/Desktop/ProgAssign01/hash.h:19: error: 'int Hash' previously defined here/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: 'string' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.cpp:20: error: expected primary-expression before 'int'/Users/tv/Desktop/ProgAssign01/hash.cpp: In function 'int createHash()':/Users/tv/Desktop/ProgAssign01/hash.cpp:29: error: 'cout' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.cpp:29: error: 'endl' was not declared in this scope/Users/tv/Desktop/ProgAssign01/hash.cpp:30: error: 'cout' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.cpp:31: error: 'string' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.cpp:31: error: expected `;' before 'name'/Users/tv/Desktop/ProgAssign01/hash.cpp:33: error: 'name' was not declared in this scope/Users/tv/Desktop/ProgAssign01/hash.cpp:33: error: 'Hash' cannot be used as a function/Users/tv/Desktop/ProgAssign01/hash.cpp:34: error: 'cout' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.cpp:34: error: 'endl' is not a member of 'std'21(4@35"Iostream: No such file or directory353384548#65#88#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(13@76"Iostream: No such file or directory in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#12#0#12#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#12#0#12#0#28"*: No such file or directory0(4@33"String: No such file or directory353384548#153#86#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(13@74"String: No such file or directory in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#13#0#13#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#13#0#13#0#28"*: No such file or directory0(4@39"Variable or field 'Error' declared void353384548#440#97#4(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(7@67"In file included from /Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384548#18446744073709551615#0#0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384459#12#0#12#0#0"0(13@88"Variable or field 'Error' declared void in /Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384548#18446744073709551615#0#0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384459#27#0#27#0#0"0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384459#27#0#27#0#0"0(4@39"'string' was not declared in this scope353384548#537#97#4(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(7@67"In file included from /Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384548#18446744073709551615#0#0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384459#12#0#12#0#0"0(13@88"'string' was not declared in this scope in /Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384548#18446744073709551615#0#0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384459#27#0#27#0#0"0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/genlib.h353384459#27#0#27#0#34"'*' was not declared in this scope0(4@29"'string' does not name a type353384548#763#87#3(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(13@78"'string' does not name a type in /Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384548#18446744073709551615#0#0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384459#61#0#61#0#0"0(6@45"/Users/tv/Desktop/ProgAssign01/cs106/simpio.h353384459#61#0#61#0#24"'*' does not name a type0(4@33"'string' is not a member of 'std'353384548#915#83#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(13@74"'string' is not a member of 'std' in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(4@40"Expected primary-expression before 'int'353384548#998#90#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(13@81"Expected primary-expression before 'int' in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#19"expected * before *0(4@58"Initializer expression list treated as compound expression353384548#1088#108#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/hash.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#9#0#9#0#0"0(13@99"Initializer expression list treated as compound expression in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(4@26"Redefinition of 'int Hash'353384548#1196#78#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#20#0#20#0#19"redefinition of '*'0(13@34"'int Hash' previously defined here353384548#1274#84#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(4@33"'string' is not a member of 'std'353384548#1358#85#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#20#0#20#0#0"0(4@40"Expected primary-expression before 'int'353384548#1443#92#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#20#0#20#0#19"expected * before *0(4@31"'cout' is not a member of 'std'353384548#1608#83#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#29#0#29#0#0"0(4@37"'endl' was not declared in this scope353384548#1691#89#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#29#0#29#0#34"'*' was not declared in this scope0(4@31"'cout' is not a member of 'std'353384548#1780#83#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#30#0#30#0#0"0(4@33"'string' is not a member of 'std'353384548#1863#85#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#31#0#31#0#0"0(4@26"Expected `;' before 'name'353384548#1948#78#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#31#0#31#0#19"expected * before *0(4@37"'name' was not declared in this scope353384548#2026#89#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#33#0#33#0#34"'*' was not declared in this scope0(4@35"'Hash' cannot be used as a function353384548#2115#87#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#33#0#33#0#0"0(4@31"'cout' is not a member of 'std'353384548#2202#83#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#34#0#34#0#0"0(4@31"'endl' is not a member of 'std'353384548#2285#83#0(6@39"/Users/tv/Desktop/ProgAssign01/hash.cpp353183222#34#0#34#0#0"0(0#0#39"/Users/tv/Desktop/ProgAssign01/hash.cpp4300882208#865"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/hash.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/hash.o1#
+
+CCompileC build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o /Users/tv/Desktop/ProgAssign01/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s353384548.507080
+e353384548.509643
+r0
+xCompileC
+xbuild/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o
+x/Users/tv/Desktop/ProgAssign01/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/tv/Desktop/ProgAssign01/main.cpp353384548#353384548#0(1073"/Users/tv/Desktop/ProgAssign01/main.cpp:1:20: error: iostream: No such file or directoryIn file included from /Users/tv/Desktop/ProgAssign01/main.cpp:5:/Users/tv/Desktop/ProgAssign01/hash.h:13:18: error: string: No such file or directoryIn file included from cs106/simpio.h:12,                 from /Users/tv/Desktop/ProgAssign01/hash.h:14,                 from /Users/tv/Desktop/ProgAssign01/main.cpp:5:cs106/genlib.h:27: error: variable or field 'Error' declared voidcs106/genlib.h:27: error: 'string' was not declared in this scopeIn file included from /Users/tv/Desktop/ProgAssign01/hash.h:14,                 from /Users/tv/Desktop/ProgAssign01/main.cpp:5:cs106/simpio.h:61: error: 'string' does not name a typeIn file included from /Users/tv/Desktop/ProgAssign01/main.cpp:5:/Users/tv/Desktop/ProgAssign01/hash.h:19: error: 'string' is not a member of 'std'/Users/tv/Desktop/ProgAssign01/hash.h:19: error: expected primary-expression before 'int'/Users/tv/Desktop/ProgAssign01/hash.h:19: error: initializer expression list treated as compound expression8(4@35"Iostream: No such file or directory353384548#0#89#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#1#0#1#0#28"*: No such file or directory0(4@33"String: No such file or directory353384548#154#86#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(13@74"String: No such file or directory in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#13#0#13#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#13#0#13#0#28"*: No such file or directory0(4@39"Variable or field 'Error' declared void353384548#410#66#4(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(7@36"In file included from cs106/simpio.h353384548#18446744073709551615#0#0(6@14"cs106/simpio.h353384459#12#0#12#0#0"0(13@57"Variable or field 'Error' declared void in cs106/genlib.h353384548#18446744073709551615#0#0(6@14"cs106/genlib.h353384459#27#0#27#0#0"0(6@14"cs106/genlib.h353384459#27#0#27#0#0"0(4@39"'string' was not declared in this scope353384548#476#66#4(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(7@36"In file included from cs106/simpio.h353384548#18446744073709551615#0#0(6@14"cs106/simpio.h353384459#12#0#12#0#0"0(13@57"'string' was not declared in this scope in cs106/genlib.h353384548#18446744073709551615#0#0(6@14"cs106/genlib.h353384459#27#0#27#0#0"0(6@14"cs106/genlib.h353384459#27#0#27#0#34"'*' was not declared in this scope0(4@29"'string' does not name a type353384548#671#56#3(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(7@59"In file included from /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#14#0#14#0#0"0(13@47"'string' does not name a type in cs106/simpio.h353384548#18446744073709551615#0#0(6@14"cs106/simpio.h353384459#61#0#61#0#0"0(6@14"cs106/simpio.h353384459#61#0#61#0#24"'*' does not name a type0(4@33"'string' is not a member of 'std'353384548#792#83#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(13@74"'string' is not a member of 'std' in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(4@40"Expected primary-expression before 'int'353384548#875#90#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(13@81"Expected primary-expression before 'int' in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#19"expected * before *0(4@58"Initializer expression list treated as compound expression353384548#965#108#2(7@61"In file included from /Users/tv/Desktop/ProgAssign01/main.cpp353384548#18446744073709551615#0#0(6@39"/Users/tv/Desktop/ProgAssign01/main.cpp353384533#5#0#5#0#0"0(13@99"Initializer expression list treated as compound expression in /Users/tv/Desktop/ProgAssign01/hash.h353384548#18446744073709551615#0#0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(6@37"/Users/tv/Desktop/ProgAssign01/hash.h352958748#19#0#19#0#0"0(0#0#39"/Users/tv/Desktop/ProgAssign01/main.cpp4300882208#865"    cd /Users/tv/Desktop/ProgAssign01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/ProgAssign01.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources/i386 -I/Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/DerivedSources -fstack-check -c /Users/tv/Desktop/ProgAssign01/main.cpp -o /Users/tv/Desktop/ProgAssign01/build/ProgAssign01.build/Debug/ProgAssign01.build/Objects-normal/i386/main.o1#
+
+CLd ./ProgAssign01.app/Contents/MacOS/ProgAssign01 normal i386
+r0
+
+CProcessInfoPlistFile ./ProgAssign01.app/Contents/Info.plist Info.plist
+s353384548.502858
+e353384548.505960
+r1
+xProcessInfoPlistFile
+x./ProgAssign01.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist353384548#353384548#0(0"0(0#0#41"/Users/tv/Desktop/ProgAssign01/Info.plist4300882208#206"    cd /Users/tv/Desktop/ProgAssign01    builtin-infoPlistUtility Info.plist -genpkginfo ./ProgAssign01.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./ProgAssign01.app/Contents/Info.plist0#
+
+CTouch ./ProgAssign01.app
+r0
+
