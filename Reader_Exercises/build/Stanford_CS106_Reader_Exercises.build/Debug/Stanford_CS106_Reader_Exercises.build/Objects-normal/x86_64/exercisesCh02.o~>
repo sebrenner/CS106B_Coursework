@@ -1,2 +1,2 @@
 /Users/sebrenner/Desktop/Stanford_106B_ProgrammingAbstractions/My Coursework/Reader_Exercises/Stanford_CS106_Reader_Exercises/exercisesCh02.cpp: In function 'void metersToFeet(double, int&, double&)':
-/Users/sebrenner/Desktop/Stanford_106B_ProgrammingAbstractions/My Coursework/Reader_Exercises/Stanford_CS106_Reader_Exercises/exercisesCh02.cpp:106: warning: implicit conversion shortens 64-bit value into a 32-bit value
+/Users/sebrenner/Desktop/Stanford_106B_ProgrammingAbstractions/My Coursework/Reader_Exercises/Stanford_CS106_Reader_Exercises/exercisesCh02.cpp:108: warning: implicit conversion shortens 64-bit value into a 32-bit value

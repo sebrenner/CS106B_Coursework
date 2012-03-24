@@ -3,13 +3,11 @@
 //  CS106B_Reader_Excercises
 //
 //  Created by Scott Brenner on 2/13/12.
-//  Copyright (c) 2012 __MyCompanyName__.
+//  Copyright (c) 2012 Scott Brenner.
 //
 
-#include <iostream>
 #include "exercisesCh02.h"
-#include <math.h>
-using namespace std;
+// using namespace std;
 
 void chapter02(){
     short exerciseSelection;
@@ -62,10 +60,12 @@ void chapter02(){
         case 6:
 			problem6();
             break;
-//        case 7:
-//            break;
-//        case 8:
-//            break;
+        case 7:
+			problem7();
+            break;
+        case 8:
+			problem8();
+            break;
 //        case 9:
 //            break;
 //        case 10:
@@ -245,3 +245,158 @@ bool isPrime2( int n ){
 	}
 	return true;
 }
+
+
+/* Problem 7
+
+Even though clients of the <cmath> library typically don’t need to understand how functions like sqrt work internally, the implementers of that library have to be able to design an effective algorithm and write the necessary to code. If you were asked to implement the sqrt function without using the library version, there are many strategies you could adopt. One of the easiest strategies to understand is successive approximation in which you make a guess at the solution and then refine that guess by choosing new values that move closer to the solution.
+ 
+ You can use successive approximation to determine the square root of x by adopting the following strategy:
+ 
+	 1. Begin by guessing that the square root is x / 2. Call that guess g.
+	 2. The actual square root must lie between g and x / g. At each step in the
+	 successive approximation, generate a new guess by averaging g and x / g.
+	 3. Repeat step 2 until the values g and x / g are as close together as the machine precision allows. In C++, the best way to check for this condition is to test whether the average is equal to either of the values used to generate it.
+
+ Use this strategy to write your own implementation of the sqrt function.
+*/
+
+int problem7(){
+	int n;
+	cout << "This function approximates the square root of a number.\nEnter a numer: ";
+	cin >> n;
+	cout << "The square root of " << n << " is " << mySqRt( n );
+	return 0;
+}
+
+double mySqRt ( double x ){
+	double g = x / 2;
+	while ( g != x/g ) {
+		g = ( g + x/g )/2;
+	}
+	return g;
+}
+
+
+/* Problem 8
+ 
+ Although Euclid’s algorithm for calculating the greatest common divisor is one of the oldest to be dignified with that term, there are other algorithms that date back many centuries. In the Middle Ages, one of the problems that required sophisticated algorithmic thinking was determining the date of Easter, which falls on the first Sunday after the first full moon following the vernal equinox. Given this definition, the calculation involves interacting cycles of the day of the week, the orbit of the moon, and the passage of the sun through the zodiac. Early algorithms for solving this problem date back to the third century and are fully described in the writings of the eighth-century scholar now known as the Venerable Bede.
+ 
+ In 1800, the German mathematician Carl Friedrich Gauss published an algorithm for determining the date of Easter that was purely computational in the sense that it relied on arithmetic rather than looking up values in tables. His algorithm—translated directly from the German—appears in Figure 2-15.
+ 
+ Gauss’s algorithm for computing the date of Easter
+	 ￼￼I. Divide the number of the year for which one wishes to calculate Easter by 19, by 4, and by 7, and call the remainders of these divisions a, b, and c, respectively. If the division is even, set the remainder to 0; the quotients are not taken into account. Precisely the same is true of the following divisions.
+	 II. Divide the value 19a + 23 by 30 and call the remainder d.
+	 III. Finally, divide 2b + 4c + 6d + 3, or 2b + 4c + 6d + 4, choosing the former for years between 1700 and 1799 and the latter for years between 1800 and 1899, by 7 and call the remainder e.
+
+ Then Easter falls on March 22 + d + e, or when d + e is greater than 9, on April d + e – 9.
+ 
+ 
+ Write a procedure
+ 
+	 void findEaster(int year, string & month, int & day); that takes a year and returns the Easter date in the reference parameters month and day.
+ 
+ Unfortunately, the simple algorithm in Figure 2-15 only works for years in the 18th and 19th centuries. It is easy, however, to search the web for extensions that work for all years
+ Once you have coded and tested your implementation of Gauss’s original algorithm, undertake the necessary research to find a more general approach.
+ 
+ */
+
+int problem8(){
+	int year;
+	string month = "";
+	int day = 0;
+	
+	// Print a list of all easter date from 1700 through 1899.
+	// Both functions produce the same results.  And there results match these:
+	// http://www.assa.org.au/edm.html#List17
+	
+	cout << "\n\nHere is list of Easter dates for 1700 through 1899.\nThe first column of dates is calculated by Gauss' algorithmn. \nThe second column is from Meeus/Jones/Butcher Gregorian algorithm\n\n";
+	
+	for ( int i = 1700; i <= 1899; i++) {
+
+		findEaster( i, month, day );
+		cout << "Easter will be on " << month << " " << day << ", " << i << ".\t";
+
+		findEaster2( i, month, day );
+		cout << "\tEaster will be on " << month << " " << day << ", " << i << ".\n";
+	}
+	
+	while (true) {
+		cout << "\n\nThis function calculates the month and day of easter for the given year.\nIt only works for the years 1700-1899.\nEnter a year: ";
+		cin >> year;
+		if ( year >= 1700 && year <= 1899 ){
+			findEaster( year, month, day );
+			cout << "Easter will be on " << month << " " << day << ", " << year << ".";
+			break;
+		}
+	}
+	return 0;
+}
+
+int findEaster(int year, string & month, int & day){
+	//	￼￼I. Divide the number of the year for which one wishes to calculate Easter by 19, by 4, and by 7, and call the remainders of these divisions a, b, and c, respectively. If the division is even, set the remainder to 0; the quotients are not taken into account. Precisely the same is true of the following divisions.
+	int a = year % 19;
+	int b = year % 4;
+	int c = year % 7;
+	
+	//	II. Divide the value 19a + 23 by 30 and call the remainder d.
+	int d = (19 * a + 23) % 30;
+	int e = 0;
+	
+	//	III. Finally, divide 2b + 4c + 6d + 3, or 2b + 4c + 6d + 4, choosing the former for years between 1700 and 1799 and the latter for years between 1800 and 1899, by 7 and call the remainder e.
+	if ( year >= 1700 && year <= 1799) {
+		e = ( 2 * b + 4 * c + 6 * d + 3 ) % 7;
+	} else if (year >= 1800 && year <= 1899 ) {
+		e = ( 2 * b + 4 * c + 6 * d + 4 ) % 7;
+	}
+	
+	//	Then Easter falls on March 22 + d + e, or when d + e is greater than 9, on April d + e – 9.
+	day = 22 + d + e;
+	month = "March";
+	if ( d + e > 9 ){
+		day = d + e - 9;
+		month = "April";
+	}
+	return 0;	
+}
+
+/* 
+ Alternative algorithmn for calculating easter.
+ It was found at http://calendars.wikia.com/wiki/Computus.
+	Meeus/Jones/Butcher Gregorian algorithmEdit
+
+	a = year%19
+	b = year / 100	
+	c = year%100	
+	d = b / 4		
+	e = b%4	
+	f = (b + 8) / 25		
+	g = (b - f + 1) / 3	
+	h = (19 × a + b - d - g + 15)%30	
+	i = c / 4	
+	k = c%4		
+	L = (32 + 2 × e + 2 × i - h - k)%7	
+	m = (a + 11 × h + 22 × L) / 451	
+	month = (h + L - 7 × m + 114) / 31	
+	day = ((h + L - 7 × m + 114)%31) + 1
+ */
+ 
+int findEaster2(int year, string & month, int & day){
+	int a = year%19;
+	int b = year / 100;
+	int c = year%100;
+	int d = b / 4;
+	int e = b%4;
+	int f = (b + 8) / 25;
+	int g = (b - f + 1) / 3;
+	int h = (19 * a + b - d - g + 15)%30;
+	int i = c / 4;
+	int k = c%4;
+	int L = (32 + 2 * e + 2 * i - h - k)%7;
+	int m = (a + 11 * h + 22 * L) / 451;
+	int monthI = (h + L - 7 * m + 114) / 31;
+	day = ((h + L - 7 * m + 114) % 31) + 1;
+	month = "March";
+	if ( monthI == 4) month = "April";
+	return 0;
+} 

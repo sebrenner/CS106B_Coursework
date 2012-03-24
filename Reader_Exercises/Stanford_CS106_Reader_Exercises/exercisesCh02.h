@@ -11,6 +11,12 @@
 #ifndef CS106B_Reader_Excercises_exerciseCh02_h
 #define CS106B_Reader_Excercises_exerciseCh02_h
 
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+
+
 // Exercise selector
 void chapter02();
 
@@ -28,7 +34,21 @@ int problem5();
 bool IsPerfect( int n );
 // Exercise 6
 int problem6();
-//bool isPrime( int n );	// This is weird: this function is declared here, but it is defined in exercisesCh01.cpp.  But I can call it in exercisesCh02.cpp
+	//bool isPrime( int n );	// This is weird: this function is declared here, but it is defined in exercisesCh01.cpp.  But I can call it in exercisesCh02.cpp
 bool isPrime2( int n );
+// Exercise 7
+int problem7();
+double mySqRt ( double x );
+// Exercise 8
+int problem8();
+int findEaster (int year, string &month, int &day);
+int findEaster2(int year, string &month, int &day);
+
+// Exercise 9
+int problem9();
+
+// Exercise 10
+int problem10();
+
 
 #endif
